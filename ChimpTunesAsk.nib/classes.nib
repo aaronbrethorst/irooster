@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {ok = id; }; 
+            CLASS = ChimpTunesAsk; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {chkDownloadArt = NSButton; chkEnableChimpTunes = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LinkLabel; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancel = id; start = id; updateTimeListing = id; }; 
+            CLASS = LullabyeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                btnClose = NSButton; 
+                btnStart = NSButton; 
+                popDuration = NSPopUpButton; 
+                popFallAsleep = NSPopUpButton; 
+                txtTimeRemaining = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

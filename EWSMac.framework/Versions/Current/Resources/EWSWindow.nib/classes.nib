@@ -1,0 +1,237 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                handleBackButton = id; 
+                handleCancelButton = id; 
+                handleDownloadCancelButton = id; 
+                handleNextButton = id; 
+                handleSaveButton = id; 
+            }; 
+            CLASS = EWSController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_actKeyA" = NSTextField; 
+                "_actKeyB" = NSTextField; 
+                "_actKeyC" = NSTextField; 
+                "_actKeyD" = NSTextField; 
+                "_actKeyE" = NSTextField; 
+                "_actKeyF" = NSTextField; 
+                "_actKeyG" = NSTextField; 
+                "_actKeyH" = NSTextField; 
+                "_actKeyI" = NSTextField; 
+                "_actKeyJ" = NSTextField; 
+                "_activationTabView" = NSTabView; 
+                "_backButton" = NSButton; 
+                "_cancelButton" = NSButton; 
+                "_contactingProgress" = NSProgressIndicator; 
+                "_contactingWindow" = NSPanel; 
+                "_downloadProgress" = NSProgressIndicator; 
+                "_downloadText" = NSTextField; 
+                "_downloadWindow" = NSWindow; 
+                "_engineUpdatePanel" = NSPanel; 
+                "_engineUpdateProgress" = NSProgressIndicator; 
+                "_enterKeyTextView" = NSTextView; 
+                "_finishedTextView" = NSTextView; 
+                "_introTextView" = NSTextView; 
+                "_manualActivationProgress" = NSProgressIndicator; 
+                "_manualActivationWindow" = NSWindow; 
+                "_nextButton" = NSButton; 
+                "_otherActKeyA" = NSTextField; 
+                "_otherActKeyB" = NSTextField; 
+                "_otherActKeyC" = NSTextField; 
+                "_otherActKeyD" = NSTextField; 
+                "_otherActKeyE" = NSTextField; 
+                "_otherActKeyF" = NSTextField; 
+                "_otherActKeyG" = NSTextField; 
+                "_otherActKeyH" = NSTextField; 
+                "_otherActKeyI" = NSTextField; 
+                "_otherActKeyJ" = NSTextField; 
+                "_otherActTextView" = NSTextView; 
+                "_otherCompTextView" = NSTextView; 
+                "_progress" = NSProgressIndicator; 
+                "_radioButtons" = NSMatrix; 
+                "_saveButton" = NSButton; 
+                "_statusText" = NSTextField; 
+                "_webActTextView" = NSTextView; 
+                "_webView" = WebView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                handleBackButton = id; 
+                handleCancelButton = id; 
+                handleDownloadCancelButton = id; 
+                handleNextButton = id; 
+                handleSaveButton = id; 
+            }; 
+            CLASS = EWSController36; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_actKeyA" = NSTextField; 
+                "_actKeyB" = NSTextField; 
+                "_actKeyC" = NSTextField; 
+                "_actKeyD" = NSTextField; 
+                "_actKeyE" = NSTextField; 
+                "_actKeyF" = NSTextField; 
+                "_actKeyG" = NSTextField; 
+                "_actKeyH" = NSTextField; 
+                "_actKeyI" = NSTextField; 
+                "_actKeyJ" = NSTextField; 
+                "_activationTabView" = NSTabView; 
+                "_backButton" = NSButton; 
+                "_cancelButton" = NSButton; 
+                "_downloadProgress" = NSProgressIndicator; 
+                "_downloadText" = NSTextField; 
+                "_downloadWindow" = NSWindow; 
+                "_enterKeyTextView" = NSTextView; 
+                "_finishedTextView" = NSTextView; 
+                "_introTextView" = NSTextView; 
+                "_manualActivationProgress" = NSProgressIndicator; 
+                "_manualActivationWindow" = NSWindow; 
+                "_nextButton" = NSButton; 
+                "_otherActKeyA" = NSTextField; 
+                "_otherActKeyB" = NSTextField; 
+                "_otherActKeyC" = NSTextField; 
+                "_otherActKeyD" = NSTextField; 
+                "_otherActKeyE" = NSTextField; 
+                "_otherActKeyF" = NSTextField; 
+                "_otherActKeyG" = NSTextField; 
+                "_otherActKeyH" = NSTextField; 
+                "_otherActKeyI" = NSTextField; 
+                "_otherActKeyJ" = NSTextField; 
+                "_otherActTextView" = NSTextView; 
+                "_otherCompTextView" = NSTextView; 
+                "_progress" = NSProgressIndicator; 
+                "_radioButtons" = NSMatrix; 
+                "_saveButton" = NSButton; 
+                "_statusText" = NSTextField; 
+                "_webActTextView" = NSTextView; 
+                "_webView" = WebView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                handleBackButton = id; 
+                handleCancelButton = id; 
+                handleDownloadCancelButton = id; 
+                handleNextButton = id; 
+                handleSaveButton = id; 
+            }; 
+            CLASS = EWSController42; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_actKeyA" = NSTextField; 
+                "_actKeyB" = NSTextField; 
+                "_actKeyC" = NSTextField; 
+                "_actKeyD" = NSTextField; 
+                "_actKeyE" = NSTextField; 
+                "_actKeyF" = NSTextField; 
+                "_actKeyG" = NSTextField; 
+                "_actKeyH" = NSTextField; 
+                "_actKeyI" = NSTextField; 
+                "_actKeyJ" = NSTextField; 
+                "_activationTabView" = NSTabView; 
+                "_backButton" = NSButton; 
+                "_cancelButton" = NSButton; 
+                "_contactingProgress" = NSProgressIndicator; 
+                "_contactingWindow" = NSPanel; 
+                "_downloadProgress" = NSProgressIndicator; 
+                "_downloadText" = NSTextField; 
+                "_downloadWindow" = NSWindow; 
+                "_enterKeyTextView" = NSTextView; 
+                "_finishedTextView" = NSTextView; 
+                "_introTextView" = NSTextView; 
+                "_manualActivationProgress" = NSProgressIndicator; 
+                "_manualActivationWindow" = NSWindow; 
+                "_nextButton" = NSButton; 
+                "_otherActKeyA" = NSTextField; 
+                "_otherActKeyB" = NSTextField; 
+                "_otherActKeyC" = NSTextField; 
+                "_otherActKeyD" = NSTextField; 
+                "_otherActKeyE" = NSTextField; 
+                "_otherActKeyF" = NSTextField; 
+                "_otherActKeyG" = NSTextField; 
+                "_otherActKeyH" = NSTextField; 
+                "_otherActKeyI" = NSTextField; 
+                "_otherActKeyJ" = NSTextField; 
+                "_otherActTextView" = NSTextView; 
+                "_otherCompTextView" = NSTextView; 
+                "_progress" = NSProgressIndicator; 
+                "_radioButtons" = NSMatrix; 
+                "_saveButton" = NSButton; 
+                "_statusText" = NSTextField; 
+                "_webActTextView" = NSTextView; 
+                "_webView" = WebView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                handleBackButton = id; 
+                handleCancelButton = id; 
+                handleDownloadCancelButton = id; 
+                handleNextButton = id; 
+                handleSaveButton = id; 
+            }; 
+            CLASS = EWSController62; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_actKeyA" = NSTextField; 
+                "_actKeyB" = NSTextField; 
+                "_actKeyC" = NSTextField; 
+                "_actKeyD" = NSTextField; 
+                "_actKeyE" = NSTextField; 
+                "_actKeyF" = NSTextField; 
+                "_actKeyG" = NSTextField; 
+                "_actKeyH" = NSTextField; 
+                "_actKeyI" = NSTextField; 
+                "_actKeyJ" = NSTextField; 
+                "_activationTabView" = NSTabView; 
+                "_backButton" = NSButton; 
+                "_cancelButton" = NSButton; 
+                "_contactingProgress" = NSProgressIndicator; 
+                "_contactingWindow" = NSPanel; 
+                "_downloadProgress" = NSProgressIndicator; 
+                "_downloadText" = NSTextField; 
+                "_downloadWindow" = NSWindow; 
+                "_enterKeyTextView" = NSTextView; 
+                "_finishedTextView" = NSTextView; 
+                "_introTextView" = NSTextView; 
+                "_manualActivationProgress" = NSProgressIndicator; 
+                "_manualActivationWindow" = NSWindow; 
+                "_nextButton" = NSButton; 
+                "_otherActKeyA" = NSTextField; 
+                "_otherActKeyB" = NSTextField; 
+                "_otherActKeyC" = NSTextField; 
+                "_otherActKeyD" = NSTextField; 
+                "_otherActKeyE" = NSTextField; 
+                "_otherActKeyF" = NSTextField; 
+                "_otherActKeyG" = NSTextField; 
+                "_otherActKeyH" = NSTextField; 
+                "_otherActKeyI" = NSTextField; 
+                "_otherActKeyJ" = NSTextField; 
+                "_otherActTextView" = NSTextView; 
+                "_otherCompTextView" = NSTextView; 
+                "_progress" = NSProgressIndicator; 
+                "_radioButtons" = NSMatrix; 
+                "_saveButton" = NSButton; 
+                "_statusText" = NSTextField; 
+                "_webActTextView" = NSTextView; 
+                "_webView" = WebView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = EWSTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = EWSTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }
+    ); 
+    IBVersion = 1; 
+}

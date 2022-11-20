@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>iRooster</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iRooster 2.5.1</string>
+	<key>CFBundleIconFile</key>
+	<string>irooster</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ChimpSoftware.iRooster</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iRooster</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>iRooster 2.5.1</string>
+	<key>CFBundleSignature</key>
+	<string>RSTR</string>
+	<key>CFBundleVersion</key>
+	<string>iRooster 2.5.1</string>
+	<key>CSPreferencesVersion</key>
+	<string>5</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://www.chimpsoftware.com/appcasts/irooster25.xml</string>
+</dict>
+</plist>

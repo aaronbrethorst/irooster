@@ -1,0 +1,74 @@
+/* Standard time/date display in main window with 24 hour clock, like Saturday September 3 2004 9:00 */
+"%a %b %d %Y, %H:%M" = "%a %b %d %Y, %H:%M";
+
+/* Standard time/date display in main window with AM/PM indication. */
+"%a %b %d %Y, %I:%M %p" = "%a %b %d %Y, %I:%M %p";
+
+/* List of three-character days of week abbreviations. It is important that these are kept as three letters apiece. Please let me know if this is not possible. */
+"(Mon Tue Wed Thu Fri Sat Sun)" = "(Mon Tue Wed Thu Fri Sat Sun)";
+
+/* Localized word for day, like one day instead of the converse of night. */
+"day" = "day";
+
+/* Localized word for days, like two days instead of the converse of night. */
+"days" = "days";
+
+/* Alarm table watermark text */
+"Double-click to add a new alarm." = "Double-click to add a new alarm.";
+
+/* Used as button text for an alert panel to indicate that the iTunes Library XML file cannot be located */
+"Find iTunes Library File..." = "Find iTunes Library File...";
+
+/* Used as the body to an alert panel to indicate that the iTunes Library XML file cannot be located */
+"iRooster cannot find the iTunes library. Please locate it now. This file is normally named \"iTunes Music Library.xml\"" = "iRooster cannot find the iTunes library. Please locate it now. This file is normally named \"iTunes Music Library.xml\"";
+
+/* Used as the title to an alert panel to indicate that the iTunes Library XML file cannot be located */
+"iTunes Library Missing" = "iTunes Library Missing";
+
+/* Indicates that no default playlist has been chosen in iRoosters preferences. */
+"No Default Playlist" = "No Default Playlist";
+
+/* Used in the About dialog when iRooster has not been registered. */
+"Not Registered" = "Not Registered";
+
+/* Standard OK button text. */
+"OK" = "OK";
+
+/* Used for the button text of the alert panel shown on first run of the compact display to tell the user that the compact display can be made transparent. */
+"Open Preferences..." = "Open Preferences...";
+
+/* Purchase button for the Registration alert panel. */
+"Purchase..." = "Purchase...";
+
+/* - (void)checkRegistrationStatus */
+"Quit" = "Quit";
+
+/* - (void)checkRegistrationStatus */
+"Register" = "Register";
+
+/* Pretty straightforward. Used as button text. */
+"Register iRooster" = "Register iRooster";
+
+/* The word for today */
+"Today" = "Today";
+
+/* Displays relative date for Today with 24 hour clock in the main window, like Today, 13:45 */
+"Today, %H:%M" = "Today, %H:%M";
+
+/* Displays relative date for Today with AM/PM indication in main window */
+"Today, %I:%M %p" = "Today, %I:%M %p";
+
+/* The word for tomorrow. */
+"Tomorrow" = "Tomorrow";
+
+/* Displays relative date for Tomorrow with 24 hour clock in the in the main window, like Tomorrow, 9:00 */
+"Tomorrow, %H:%M" = "Tomorrow, %H:%M";
+
+/* Displays relative date for Tomorrow with AM/PM indication in main window */
+"Tomorrow, %I:%M %p" = "Tomorrow, %I:%M %p";
+
+/* Body text for the Registration alert panel. */
+"You have used iRooster for %d %@. You must purchase iRooster or delete it after 14 days." = "You have used iRooster for %d %@. You must purchase iRooster or delete it after 14 days.";
+
+/* - (void)checkRegistrationStatus */
+"You have used iRooster for %d days. You must now purchase iRooster or delete it." = "You have used iRooster for %d days. You must now purchase iRooster or delete it.";

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openiRooster = id; quit = id; }; 
+            CLASS = MenuController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mnuNextAlarm = NSMenuItem; mnuPlaylist = NSMenuItem; mnuSystem = NSMenu; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

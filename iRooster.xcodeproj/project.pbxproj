@@ -1,0 +1,2055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93009C5A0B92C92F00E11FAD /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933170BA0A55A5A60084B979 /* CURLHandle.framework */; };
+		93009C840B92C9FB00E11FAD /* CURLHandle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 933170BA0A55A5A60084B979 /* CURLHandle.framework */; };
+		9300A8480B9CCE9100E11FAD /* CSDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9300A83E0B9CCE4700E11FAD /* CSDatePicker.h */; };
+		9300A8490B9CCE9200E11FAD /* CSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300A83F0B9CCE4700E11FAD /* CSDatePicker.m */; };
+		930298CA0B54A834005508EB /* display.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 930298C90B54A834005508EB /* display.tiff */; };
+		93065A020BA47D67003E1835 /* NSWorkspace+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 930659FF0BA47D66003E1835 /* NSWorkspace+Extras.h */; };
+		93065A030BA47D67003E1835 /* NSWorkspace+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93065A000BA47D66003E1835 /* NSWorkspace+Extras.m */; };
+		93065A040BA47D67003E1835 /* NSWorkspace+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 930659FF0BA47D66003E1835 /* NSWorkspace+Extras.h */; };
+		93065A050BA47D67003E1835 /* NSWorkspace+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93065A000BA47D66003E1835 /* NSWorkspace+Extras.m */; };
+		930660F60BAD2D58003E1835 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393A8AD06C9C54E00F87625 /* NSString+Additions.m */; };
+		930A752F090C652300E230E1 /* DeleteAlarmPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 933A3C0404B1097B00F174B6 /* DeleteAlarmPanel.nib */; };
+		930A7532090C652900E230E1 /* QuitAlert.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93F66D6E04D0D59100FEE561 /* QuitAlert.nib */; };
+		930A7535090C653600E230E1 /* About.nib in Resources */ = {isa = PBXBuildFile; fileRef = 933A3C0004B1097B00F174B6 /* About.nib */; };
+		930A7536090C653D00E230E1 /* AlarmEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93A8F2820790D046000E6176 /* AlarmEditor.nib */; };
+		930A7537090C654700E230E1 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 933A3C0604B1099A00F174B6 /* MainMenu.nib */; };
+		930A7539090C655300E230E1 /* Lullabye.nib in Resources */ = {isa = PBXBuildFile; fileRef = 93F0C184076B120D00974B33 /* Lullabye.nib */; };
+		930A753A090C655900E230E1 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 933A7A740548CB2300180972 /* Preferences.nib */; };
+		930A753B090C655F00E230E1 /* Activation.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9368C85404E9CC8800A915F2 /* Activation.nib */; };
+		930A7542090C658400E230E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		930E3CBB07783254002C2AD7 /* SDCPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 930E3CB907783254002C2AD7 /* SDCPanel.h */; };
+		930E3CBC07783254002C2AD7 /* SDCPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E3CBA07783254002C2AD7 /* SDCPanel.m */; };
+		930F023207B885AB0055E0CE /* OTPreferenceWindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 930F023007B885AB0055E0CE /* OTPreferenceWindowManager.h */; };
+		930F023307B885AB0055E0CE /* OTPreferenceWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F023107B885AB0055E0CE /* OTPreferenceWindowManager.m */; };
+		93148FB7074AE48100B9CC26 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3BA704B107F200F174B6 /* Controller.m */; };
+		931785860AF7CAED0054E090 /* BlueClockBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 931785850AF7CAED0054E090 /* BlueClockBG.png */; };
+		932C863506D81D46002BBD97 /* GradientTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 932C863106D81D46002BBD97 /* GradientTableView.h */; };
+		932C863606D81D46002BBD97 /* GradientTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932C863206D81D46002BBD97 /* GradientTableView.m */; };
+		932DE22707DEEB2B00B055F3 /* SDCTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 932DE22507DEEB2B00B055F3 /* SDCTableView.h */; };
+		932DE22807DEEB2B00B055F3 /* SDCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 932DE22607DEEB2B00B055F3 /* SDCTableView.m */; };
+		932F238E073CDF0F00345346 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932F238D073CDF0F00345346 /* IOKit.framework */; };
+		9331710E0A55A7910084B979 /* ChimpTunesAsk.m in Sources */ = {isa = PBXBuildFile; fileRef = 938D4C980774F2610051EC3F /* ChimpTunesAsk.m */; };
+		9331710F0A55A7920084B979 /* ChimpTunesAsk.nib in Resources */ = {isa = PBXBuildFile; fileRef = 938D4C570774E2330051EC3F /* ChimpTunesAsk.nib */; };
+		933171700A55B3C80084B979 /* Podcasts.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9331716F0A55B3C80084B979 /* Podcasts.tiff */; };
+		933171CE0A55B5A10084B979 /* Videos.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 933171CD0A55B5A10084B979 /* Videos.tiff */; };
+		9331763F0A59D5680084B979 /* PlaylistTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9331763E0A59D5680084B979 /* PlaylistTypes.h */; };
+		9335C3780BBF92A2007B5AAF /* RBSplitView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9335C3770BBF92A2007B5AAF /* RBSplitView.framework */; };
+		9335C37D0BBF92B0007B5AAF /* RBSplitView.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9335C3770BBF92A2007B5AAF /* RBSplitView.framework */; };
+		93379B000A30058A00B1FC14 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93379AFF0A30058A00B1FC14 /* Sparkle.framework */; };
+		93379B150A3005A600B1FC14 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 93379AFF0A30058A00B1FC14 /* Sparkle.framework */; };
+		9338528E0797515D00C27B0D /* ThemedTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9338528C0797515D00C27B0D /* ThemedTextCell.h */; };
+		9338528F0797515D00C27B0D /* ThemedTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9338528D0797515D00C27B0D /* ThemedTextCell.m */; };
+		93389A720B45FEA800C02845 /* iRooster Snooze-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93389A460B45FD1300C02845 /* iRooster Snooze-Info.plist */; };
+		93389A740B45FEBD00C02845 /* SnoozeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A9AAE705BE554C00D60BDC /* SnoozeWindow.m */; };
+		93389A750B45FEBF00C02845 /* SnoozeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C764D806D333E900992656 /* SnoozeController.m */; };
+		93389A780B45FED300C02845 /* iRooster Snooze.app in Resources */ = {isa = PBXBuildFile; fileRef = 93389A440B45FD1300C02845 /* iRooster Snooze.app */; };
+		93389A7C0B45FEF600C02845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		93389A870B45FF2100C02845 /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933170BA0A55A5A60084B979 /* CURLHandle.framework */; };
+		93389AAA0B45FFA200C02845 /* CURLHandle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 933170BA0A55A5A60084B979 /* CURLHandle.framework */; };
+		93389AB10B45FFF900C02845 /* SongDatabase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 936378200755D314008F9F3E /* SongDatabase.h */; };
+		93389AB20B45FFF900C02845 /* SongDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 936378210755D314008F9F3E /* SongDatabase.m */; };
+		93389B940B46098E00C02845 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FC60A406C8B80E00109FB8 /* AudioManager.m */; };
+		93389B950B46098F00C02845 /* AudioManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93FC60A306C8B80E00109FB8 /* AudioManager.h */; };
+		93389C2A0B460BBA00C02845 /* iTunes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 933A3BB904B107F300F174B6 /* iTunes.h */; };
+		93389C2B0B460BBB00C02845 /* iTunes.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3BBA04B107F300F174B6 /* iTunes.m */; };
+		93389C420B460C3B00C02845 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAA904C9071A00691E9C /* Carbon.framework */; };
+		93389C7A0B460D5C00C02845 /* NSBundle+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93389C780B460D5C00C02845 /* NSBundle+Extras.h */; };
+		93389C7B0B460D5C00C02845 /* NSBundle+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93389C790B460D5C00C02845 /* NSBundle+Extras.m */; };
+		93389C7C0B460D5C00C02845 /* NSBundle+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 93389C780B460D5C00C02845 /* NSBundle+Extras.h */; };
+		93389C7D0B460D5C00C02845 /* NSBundle+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93389C790B460D5C00C02845 /* NSBundle+Extras.m */; };
+		93389CAE0B460E4100C02845 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B18D7506E8FC48007E02C0 /* CoreAudio.framework */; };
+		93389CF60B460F3D00C02845 /* NSAppleScript+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 93389CF40B460F3D00C02845 /* NSAppleScript+Extras.h */; };
+		93389CF70B460F3D00C02845 /* NSAppleScript+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93389CF50B460F3D00C02845 /* NSAppleScript+Extras.m */; };
+		93389CF80B460F3D00C02845 /* NSAppleScript+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93389CF40B460F3D00C02845 /* NSAppleScript+Extras.h */; };
+		93389CF90B460F3D00C02845 /* NSAppleScript+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 93389CF50B460F3D00C02845 /* NSAppleScript+Extras.m */; };
+		9338A2D30B48448800C02845 /* NSDictionary+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9338A2D10B48448800C02845 /* NSDictionary+Extras.h */; };
+		9338A2D40B48448800C02845 /* NSDictionary+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 9338A2D20B48448800C02845 /* NSDictionary+Extras.m */; };
+		9338A2D50B48448800C02845 /* NSDictionary+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9338A2D10B48448800C02845 /* NSDictionary+Extras.h */; };
+		9338A2D60B48448800C02845 /* NSDictionary+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 9338A2D20B48448800C02845 /* NSDictionary+Extras.m */; };
+		9338A33B0B484D0900C02845 /* AppPreferences.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 935DCC7205E7141E00A18110 /* AppPreferences.h */; };
+		9338A33C0B484D0B00C02845 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DCC7305E7141E00A18110 /* AppPreferences.m */; };
+		9338A3D00B48628C00C02845 /* Minus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 936DD8EB07B58CFD009CBE19 /* Minus.icns */; };
+		9338A3D40B48629000C02845 /* Plus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 936DD8EC07B58CFD009CBE19 /* Plus.icns */; };
+		9338A3D70B48629400C02845 /* FFWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368DA2B0749E98C007F96BD /* FFWD.png */; };
+		9338A3DA0B48629700C02845 /* RWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368DA360749EA5C007F96BD /* RWD.png */; };
+		9338A41C0B4864E900C02845 /* OAAquaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 939E6A65094818FA00CC8C91 /* OAAquaButton.m */; };
+		9338A41E0B4864F500C02845 /* SnoozeController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93C764D706D333E900992656 /* SnoozeController.h */; };
+		9338A4240B48652F00C02845 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9338A4250B48653F00C02845 /* SnoozeWindow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93A9AAE605BE554C00D60BDC /* SnoozeWindow.h */; };
+		9338A4510B48663A00C02845 /* BlueClockBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 931785850AF7CAED0054E090 /* BlueClockBG.png */; };
+		9338A4550B48663E00C02845 /* iTunesClockBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 934CDB4308D5665200FF3AC6 /* iTunesClockBG.png */; };
+		9338A45C0B4867BB00C02845 /* Snooze.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9338A45B0B4867BB00C02845 /* Snooze.nib */; };
+		9338A4A80B4869D500C02845 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393A8AD06C9C54E00F87625 /* NSString+Additions.m */; };
+		9338A4A90B4869D500C02845 /* NSString+Additions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9393A8AC06C9C54E00F87625 /* NSString+Additions.h */; };
+		9338A4FC0B486BD400C02845 /* AppleRemote.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9338A4FA0B486BD400C02845 /* AppleRemote.h */; };
+		9338A4FD0B486BD500C02845 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 9338A4FB0B486BD400C02845 /* AppleRemote.m */; };
+		9338A5420B486E0F00C02845 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932F238D073CDF0F00345346 /* IOKit.framework */; };
+		9338A57B0B4873D700C02845 /* OAAquaButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 939E6A64094818FA00CC8C91 /* OAAquaButton.h */; };
+		9338A58B0B48789600C02845 /* NSDate+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 9320A11D068F62FA005C50D9 /* NSDate+Extras.m */; };
+		9338A58C0B48789600C02845 /* NSDate+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9320A11C068F62FA005C50D9 /* NSDate+Extras.h */; };
+		933A54F7090347F7001BF110 /* about.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 933A54F6090347F7001BF110 /* about.rtf */; };
+		933EBF5D0A1B194C005219E4 /* ILCrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933EBF5C0A1B194C005219E4 /* ILCrashReporter.framework */; };
+		934061D70BB7002B0076CD0C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934061D60BB7002B0076CD0C /* QTKit.framework */; };
+		934061D80BB7002B0076CD0C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934061D60BB7002B0076CD0C /* QTKit.framework */; };
+		9341F6E10B0EB50F00951E71 /* CFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CD8FA08D3AD1A00FF3AC6 /* CFUtilities.h */; };
+		9341F6E20B0EB50F00951E71 /* MoreSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CD8FC08D3AD1A00FF3AC6 /* MoreSecurity.h */; };
+		9341F6E30B0EB50F00951E71 /* MoreSecurityTestCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CD8FD08D3AD1A00FF3AC6 /* MoreSecurityTestCommon.h */; };
+		9341F6E40B0EB50F00951E71 /* MoreUNIX.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CD90008D3AD1A00FF3AC6 /* MoreUNIX.h */; };
+		9341F6E50B0EB50F00951E71 /* SetupRoutines.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CD90308D3AD1A00FF3AC6 /* SetupRoutines.h */; };
+		9341F6E60B0EB51800951E71 /* CFUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8F908D3AD1A00FF3AC6 /* CFUtilities.c */; };
+		9341F6E70B0EB51800951E71 /* MoreSecurity.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8FB08D3AD1A00FF3AC6 /* MoreSecurity.c */; };
+		9341F6E80B0EB51800951E71 /* MoreSecurityTestTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8FE08D3AD1A00FF3AC6 /* MoreSecurityTestTool.c */; };
+		9341F6E90B0EB51800951E71 /* MoreUNIX.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8FF08D3AD1A00FF3AC6 /* MoreUNIX.c */; };
+		9341F8760B0EB52400951E71 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932F238D073CDF0F00345346 /* IOKit.framework */; };
+		9341F8770B0EB52400951E71 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAAA04C9071A00691E9C /* CoreFoundation.framework */; };
+		9341F8780B0EB52400951E71 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368D9A904F5E1AB00EB4315 /* Security.framework */; };
+		9341F8790B0EB52400951E71 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAA904C9071A00691E9C /* Carbon.framework */; };
+		9341F8960B0EB88000951E71 /* WakeUpHelperTool in Copy WakeUpHelperTool */ = {isa = PBXBuildFile; fileRef = 9341F6DD0B0EB4E900951E71 /* WakeUpHelperTool */; };
+		934663ED0BADB63F0014E566 /* CTGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 934663E90BADB63F0014E566 /* CTGradient.h */; };
+		934663EE0BADB63F0014E566 /* CTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 934663EA0BADB63F0014E566 /* CTGradient.m */; };
+		934663EF0BADB63F0014E566 /* StyledWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 934663EB0BADB63F0014E566 /* StyledWindow.h */; };
+		934663F00BADB63F0014E566 /* StyledWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 934663EC0BADB63F0014E566 /* StyledWindow.m */; };
+		934668B00BB509A50014E566 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934668AF0BB509A50014E566 /* Quartz.framework */; };
+		934668B10BB509A50014E566 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934668AF0BB509A50014E566 /* Quartz.framework */; };
+		934CD91F08D3ADCA00FF3AC6 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3B9604B107F200F174B6 /* AboutController.m */; };
+		934CD92208D3ADD600FF3AC6 /* CFUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8F908D3AD1A00FF3AC6 /* CFUtilities.c */; };
+		934CD92B08D3AE4400FF3AC6 /* MoreSecurity.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8FB08D3AD1A00FF3AC6 /* MoreSecurity.c */; };
+		934CD92C08D3AE5700FF3AC6 /* MoreUNIX.c in Sources */ = {isa = PBXBuildFile; fileRef = 934CD8FF08D3AD1A00FF3AC6 /* MoreUNIX.c */; };
+		934CD93008D3AE6100FF3AC6 /* PowerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 934CD90208D3AD1A00FF3AC6 /* PowerManager.m */; };
+		934CDB4408D5665200FF3AC6 /* iTunesClockBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 934CDB4308D5665200FF3AC6 /* iTunesClockBG.png */; };
+		934DBBDB06CC9AA00007CBD1 /* Playlist.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBBDA06CC9AA00007CBD1 /* Playlist.tiff */; };
+		934DBBF906CC9BEE0007CBD1 /* Library.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBBF606CC9BEE0007CBD1 /* Library.tiff */; };
+		934DBBFA06CC9BEE0007CBD1 /* Purchased Music.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBBF706CC9BEE0007CBD1 /* Purchased Music.tiff */; };
+		934DBBFB06CC9BEE0007CBD1 /* Smart Playlist.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBBF806CC9BEE0007CBD1 /* Smart Playlist.tiff */; };
+		934DBC3806CC9D340007CBD1 /* IRRandomPlaylist.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBC3706CC9D340007CBD1 /* IRRandomPlaylist.tiff */; };
+		935A4E3A0CD50DDD00502B5B /* EWSLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 935A4E390CD50DDD00502B5B /* EWSLib.h */; };
+		935A4E3C0CD50E1200502B5B /* validateLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 935A4E3B0CD50E1200502B5B /* validateLib.h */; };
+		935A4E420CD50E4A00502B5B /* EWSMacCompress.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 935A4E3F0CD50E4A00502B5B /* EWSMacCompress.tar.gz */; };
+		935A4E430CD50E4A00502B5B /* libEWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 935A4E400CD50E4A00502B5B /* libEWS.a */; };
+		935A4E440CD50E4A00502B5B /* libValidateUniversal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 935A4E410CD50E4A00502B5B /* libValidateUniversal.a */; };
+		935A4E850CD5168D00502B5B /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 935A4E820CD5167E00502B5B /* HIDRemoteControlDevice.m */; };
+		935A4E9A0CD516BB00502B5B /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 935A4E990CD516BB00502B5B /* RemoteControl.m */; };
+		93635A4D0AA8161100C770EE /* Library Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A460AA8161100C770EE /* Library Large.tiff */; };
+		93635A4E0AA8161100C770EE /* Party Shuffle Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A470AA8161100C770EE /* Party Shuffle Large.tiff */; };
+		93635A4F0AA8161100C770EE /* Playlist Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A480AA8161100C770EE /* Playlist Large.tiff */; };
+		93635A500AA8161100C770EE /* Podcasts Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A490AA8161100C770EE /* Podcasts Large.tiff */; };
+		93635A510AA8161100C770EE /* Purchased Music Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A4A0AA8161100C770EE /* Purchased Music Large.tiff */; };
+		93635A520AA8161100C770EE /* Smart Playlist Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A4B0AA8161100C770EE /* Smart Playlist Large.tiff */; };
+		93635A530AA8161100C770EE /* Videos Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93635A4C0AA8161100C770EE /* Videos Large.tiff */; };
+		936D0B8D0AACF25F007ED514 /* AlarmStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 936D0B8B0AACF25F007ED514 /* AlarmStringHelper.h */; };
+		936D0B8E0AACF25F007ED514 /* AlarmStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D0B8C0AACF25F007ED514 /* AlarmStringHelper.m */; };
+		936DD93307B595E2009CBE19 /* NSWindow+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 936DD93107B595E2009CBE19 /* NSWindow+Extras.h */; };
+		93793DEA06CE992D003F867E /* Party Shuffle.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 934DBBF306CC9BDC0007CBD1 /* Party Shuffle.tiff */; };
+		9382768A0CCFFFB1009EB6CD /* Simple Clock.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 938276890CCFFFB1009EB6CD /* Simple Clock.qtz */; };
+		9382768B0CCFFFB1009EB6CD /* Simple Clock.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 938276890CCFFFB1009EB6CD /* Simple Clock.qtz */; };
+		938276AE0CD0147B009EB6CD /* irooster.icns in Resources */ = {isa = PBXBuildFile; fileRef = 938276AD0CD0147B009EB6CD /* irooster.icns */; };
+		938276AF0CD0147B009EB6CD /* irooster.icns in Resources */ = {isa = PBXBuildFile; fileRef = 938276AD0CD0147B009EB6CD /* irooster.icns */; };
+		9382771F0CD01E30009EB6CD /* EWSMac.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9382771E0CD01E30009EB6CD /* EWSMac.framework */; };
+		9385659807BE77AD00F39880 /* GeneralPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9385659707BE77AD00F39880 /* GeneralPreferences.tiff */; };
+		938565A407BE78A900F39880 /* iTunes.icns in Resources */ = {isa = PBXBuildFile; fileRef = 938565A307BE78A900F39880 /* iTunes.icns */; };
+		938565AE07BE793F00F39880 /* WebServices.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 938565AD07BE793F00F39880 /* WebServices.tiff */; };
+		9393A8AE06C9C54E00F87625 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9393A8AC06C9C54E00F87625 /* NSString+Additions.h */; };
+		9393A8AF06C9C54E00F87625 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393A8AD06C9C54E00F87625 /* NSString+Additions.m */; };
+		9393DCDC0A4E2B3B0097F331 /* DaysToRepeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9393DCDA0A4E2B3B0097F331 /* DaysToRepeat.h */; };
+		9393DCDD0A4E2B3B0097F331 /* DaysToRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393DCDB0A4E2B3B0097F331 /* DaysToRepeat.m */; };
+		939D2D930A1FCCE7004B8991 /* ILCrashReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 933EBF5C0A1B194C005219E4 /* ILCrashReporter.framework */; };
+		939D2E890A2014FD004B8991 /* iRoosterStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939D2E880A2014FD004B8991 /* iRoosterStrings.strings */; };
+		93A20C9D0ADA1FEB00B47A5A /* TV Shows Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20C9B0ADA1FEB00B47A5A /* TV Shows Large.tiff */; };
+		93A20C9E0ADA1FEB00B47A5A /* TV Shows.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20C9C0ADA1FEB00B47A5A /* TV Shows.tiff */; };
+		93A20D410ADA280A00B47A5A /* Movies Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D3F0ADA280A00B47A5A /* Movies Large.tiff */; };
+		93A20D420ADA280A00B47A5A /* Movies.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D400ADA280A00B47A5A /* Movies.tiff */; };
+		93A20D6F0ADA29FD00B47A5A /* Audiobooks Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D6D0ADA29FD00B47A5A /* Audiobooks Large.tiff */; };
+		93A20D700ADA29FD00B47A5A /* Audiobooks.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D6E0ADA29FD00B47A5A /* Audiobooks.tiff */; };
+		93A20D7C0ADA2B0D00B47A5A /* Music Large.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D7A0ADA2B0D00B47A5A /* Music Large.tiff */; };
+		93A20D7D0ADA2B0D00B47A5A /* Music.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 93A20D7B0ADA2B0D00B47A5A /* Music.tiff */; };
+		93A8F28C0790D136000E6176 /* AlarmEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A8F28A0790D136000E6176 /* AlarmEditor.h */; };
+		93A8F28D0790D136000E6176 /* AlarmEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A8F28B0790D136000E6176 /* AlarmEditor.m */; };
+		93B18D7606E8FC48007E02C0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B18D7506E8FC48007E02C0 /* CoreAudio.framework */; };
+		93E539DB0BBF2D3E00CCBF50 /* iTunesLibraryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A27C7E051FCC8A00A80176 /* iTunesLibraryReader.m */; };
+		93E5D8BB0AB5EE2E0033B6AA /* AudioManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5D8BA0AB5EE2E0033B6AA /* AudioManagerTest.m */; };
+		93E5D9140AB5F5760033B6AA /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FC60A406C8B80E00109FB8 /* AudioManager.m */; };
+		93E5D9150AB5F5870033B6AA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B18D7506E8FC48007E02C0 /* CoreAudio.framework */; };
+		93E5D93B0AB5F60B0033B6AA /* AlarmManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5D93A0AB5F60B0033B6AA /* AlarmManagerTest.m */; };
+		93E5D9530AB5F6DE0033B6AA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAA904C9071A00691E9C /* Carbon.framework */; };
+		93E92DEF06C5985E009EB2FC /* iRooster_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* iRooster_Prefix.h */; };
+		93E92DF006C5985E009EB2FC /* AboutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3B9504B107F200F174B6 /* AboutController.h */; };
+		93E92DF106C5985E009EB2FC /* Alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3B9704B107F200F174B6 /* Alarm.h */; };
+		93E92DF306C5985E009EB2FC /* AlarmManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3B9B04B107F200F174B6 /* AlarmManager.h */; };
+		93E92DF406C5985E009EB2FC /* AlarmPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3B9D04B107F200F174B6 /* AlarmPanelController.h */; };
+		93E92DF806C5985E009EB2FC /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3BA604B107F200F174B6 /* Controller.h */; };
+		93E92DF906C5985E009EB2FC /* iTunes.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A3BB904B107F300F174B6 /* iTunes.h */; };
+		93E92DFF06C5985E009EB2FC /* QuitAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F66D7004D0D6D600FEE561 /* QuitAlertController.h */; };
+		93E92E0006C5985E009EB2FC /* KeyDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BA4B3104D34EB800FE1BEE /* KeyDownTextField.h */; };
+		93E92E0106C5985E009EB2FC /* ActivationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9368C84F04E9CBE100A915F2 /* ActivationController.h */; };
+		93E92E0406C5985E009EB2FC /* iTunesLibraryReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A27C7D051FCC8A00A80176 /* iTunesLibraryReader.h */; };
+		93E92E0506C5985E009EB2FC /* PrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CBA3C30520F37400A80176 /* PrefsController.h */; };
+		93E92E0606C5985E009EB2FC /* NSCalendarDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93678A2D0541F3E400CCE433 /* NSCalendarDate+Additions.h */; };
+		93E92E0B06C5985E009EB2FC /* eSellerateController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C96D9905D89ECA00A9BA4E /* eSellerateController.h */; };
+		93E92E0D06C5985E009EB2FC /* AppPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 935DCC7205E7141E00A18110 /* AppPreferences.h */; };
+		93E92E1106C5985E009EB2FC /* KeyControlTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93209FA7068EB01B005C50D9 /* KeyControlTableView.h */; };
+		93E92E1206C5985E009EB2FC /* NSDate+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9320A11C068F62FA005C50D9 /* NSDate+Extras.h */; };
+		93E92E1306C5985E009EB2FC /* FlatKeyDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D45A030697A3C500EAEEE3 /* FlatKeyDownTextField.h */; };
+		93E92E3F06C5985E009EB2FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		93E92E4106C5985E009EB2FC /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3B9804B107F200F174B6 /* Alarm.m */; };
+		93E92E4306C5985E009EB2FC /* AlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3B9C04B107F200F174B6 /* AlarmManager.m */; };
+		93E92E4406C5985E009EB2FC /* AlarmPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3B9E04B107F200F174B6 /* AlarmPanelController.m */; };
+		93E92E4906C5985E009EB2FC /* iTunes.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3BBA04B107F300F174B6 /* iTunes.m */; };
+		93E92E4D06C5985E009EB2FC /* QuitAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F66D7104D0D6D600FEE561 /* QuitAlertController.m */; };
+		93E92E4E06C5985E009EB2FC /* KeyDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA4B3204D34EB800FE1BEE /* KeyDownTextField.m */; };
+		93E92E4F06C5985E009EB2FC /* ActivationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368C85004E9CBE100A915F2 /* ActivationController.m */; };
+		93E92E5106C5985E009EB2FC /* iTunesLibraryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A27C7E051FCC8A00A80176 /* iTunesLibraryReader.m */; };
+		93E92E5206C5985E009EB2FC /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBA3C40520F37400A80176 /* PrefsController.m */; };
+		93E92E5306C5985E009EB2FC /* NSCalendarDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93678A2E0541F3E400CCE433 /* NSCalendarDate+Additions.m */; };
+		93E92E5706C5985E009EB2FC /* eSellerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C96D9A05D89ECA00A9BA4E /* eSellerateController.m */; };
+		93E92E5906C5985E009EB2FC /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 935DCC7305E7141E00A18110 /* AppPreferences.m */; };
+		93E92E5D06C5985E009EB2FC /* KeyControlTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93209FA8068EB01B005C50D9 /* KeyControlTableView.m */; };
+		93E92E5E06C5985E009EB2FC /* NSDate+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 9320A11D068F62FA005C50D9 /* NSDate+Extras.m */; };
+		93E92E5F06C5985E009EB2FC /* FlatKeyDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D45A040697A3C500EAEEE3 /* FlatKeyDownTextField.m */; };
+		93E92E6206C5985E009EB2FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		93E92E6506C5985E009EB2FC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAA904C9071A00691E9C /* Carbon.framework */; };
+		93E92E6606C5985E009EB2FC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BAAAA04C9071A00691E9C /* CoreFoundation.framework */; };
+		93E92E6906C5985E009EB2FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9368D9A904F5E1AB00EB4315 /* Security.framework */; };
+		93E92E6A06C5985E009EB2FC /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935C1D7605BA64D300F3A7BA /* ApplicationServices.framework */; };
+		93F0B7F10AA1232900AE5582 /* AlarmTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F0B7F00AA1232900AE5582 /* AlarmTest.m */; };
+		93F0B7F40AA1236D00AE5582 /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A3B9804B107F200F174B6 /* Alarm.m */; };
+		93F0B8620AA1265A00AE5582 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F0B8610AA1265A00AE5582 /* SenTestingKit.framework */; };
+		93F0B86D0AA1268D00AE5582 /* DaysToRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393DCDB0A4E2B3B0097F331 /* DaysToRepeat.m */; };
+		93F0B8BC0AA1292000AE5582 /* DaysToRepeatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F0B8BB0AA1292000AE5582 /* DaysToRepeatTest.m */; };
+		93F0C0DD0AA4AC3100AE5582 /* NSCalendarDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93678A2E0541F3E400CCE433 /* NSCalendarDate+Additions.m */; };
+		93F0C1140AA4ADF800AE5582 /* iTunesMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F0C1130AA4ADF800AE5582 /* iTunesMock.m */; };
+		93F0C188076B126F00974B33 /* LullabyeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F0C186076B126F00974B33 /* LullabyeController.h */; };
+		93F0C189076B126F00974B33 /* LullabyeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F0C187076B126F00974B33 /* LullabyeController.m */; };
+		93F8D49C06E66C5B00958CDA /* SDCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F8D49A06E66C5B00958CDA /* SDCButton.h */; };
+		93F8D49D06E66C5B00958CDA /* SDCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D49B06E66C5B00958CDA /* SDCButton.m */; };
+		93FC60A506C8B80E00109FB8 /* AudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FC60A306C8B80E00109FB8 /* AudioManager.h */; };
+		93FC60A606C8B80E00109FB8 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FC60A406C8B80E00109FB8 /* AudioManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93389A520B45FDA900C02845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93389A430B45FD1300C02845;
+			remoteInfo = "iRooster Snooze";
+		};
+		9341F88A0B0EB7E100951E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9341F6DC0B0EB4E900951E71;
+			remoteInfo = WUTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		932F2472073DB53000345346 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9382771F0CD01E30009EB6CD /* EWSMac.framework in Copy Frameworks */,
+				9335C37D0BBF92B0007B5AAF /* RBSplitView.framework in Copy Frameworks */,
+				93009C840B92C9FB00E11FAD /* CURLHandle.framework in Copy Frameworks */,
+				93379B150A3005A600B1FC14 /* Sparkle.framework in Copy Frameworks */,
+				939D2D930A1FCCE7004B8991 /* ILCrashReporter.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93389A4E0B45FD7F00C02845 /* Copy iRooster Snooze */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy iRooster Snooze";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93389AA60B45FF8A00C02845 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				93389AAA0B45FFA200C02845 /* CURLHandle.framework in CopyFiles */,
+				93389AB10B45FFF900C02845 /* SongDatabase.h in CopyFiles */,
+				93389B950B46098F00C02845 /* AudioManager.h in CopyFiles */,
+				93389C2A0B460BBA00C02845 /* iTunes.h in CopyFiles */,
+				93389C7A0B460D5C00C02845 /* NSBundle+Extras.h in CopyFiles */,
+				93389CF80B460F3D00C02845 /* NSAppleScript+Extras.h in CopyFiles */,
+				9338A2D50B48448800C02845 /* NSDictionary+Extras.h in CopyFiles */,
+				9338A33B0B484D0900C02845 /* AppPreferences.h in CopyFiles */,
+				9338A41E0B4864F500C02845 /* SnoozeController.h in CopyFiles */,
+				9338A4250B48653F00C02845 /* SnoozeWindow.h in CopyFiles */,
+				9338A4A90B4869D500C02845 /* NSString+Additions.h in CopyFiles */,
+				9338A4FC0B486BD400C02845 /* AppleRemote.h in CopyFiles */,
+				9338A57B0B4873D700C02845 /* OAAquaButton.h in CopyFiles */,
+				9338A58C0B48789600C02845 /* NSDate+Extras.h in CopyFiles */,
+				93065A040BA47D67003E1835 /* NSWorkspace+Extras.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9341F8A40B0EBAD900951E71 /* Copy WakeUpHelperTool */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				9341F8960B0EB88000951E71 /* WakeUpHelperTool in Copy WakeUpHelperTool */,
+			);
+			name = "Copy WakeUpHelperTool";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* iRooster_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRooster_Prefix.h; sourceTree = "<group>"; };
+		9300A83E0B9CCE4700E11FAD /* CSDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDatePicker.h; sourceTree = "<group>"; };
+		9300A83F0B9CCE4700E11FAD /* CSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDatePicker.m; sourceTree = "<group>"; };
+		930298C90B54A834005508EB /* display.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = display.tiff; sourceTree = "<group>"; };
+		930659FF0BA47D66003E1835 /* NSWorkspace+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWorkspace+Extras.h"; sourceTree = "<group>"; };
+		93065A000BA47D66003E1835 /* NSWorkspace+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWorkspace+Extras.m"; sourceTree = "<group>"; };
+		930E3CB907783254002C2AD7 /* SDCPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCPanel.h; sourceTree = "<group>"; };
+		930E3CBA07783254002C2AD7 /* SDCPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCPanel.m; sourceTree = "<group>"; };
+		930F023007B885AB0055E0CE /* OTPreferenceWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OTPreferenceWindowManager.h; sourceTree = "<group>"; };
+		930F023107B885AB0055E0CE /* OTPreferenceWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OTPreferenceWindowManager.m; sourceTree = "<group>"; };
+		931785850AF7CAED0054E090 /* BlueClockBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueClockBG.png; sourceTree = "<group>"; };
+		93209FA7068EB01B005C50D9 /* KeyControlTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyControlTableView.h; sourceTree = "<group>"; };
+		93209FA8068EB01B005C50D9 /* KeyControlTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControlTableView.m; sourceTree = "<group>"; };
+		9320A11C068F62FA005C50D9 /* NSDate+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extras.h"; sourceTree = "<group>"; };
+		9320A11D068F62FA005C50D9 /* NSDate+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extras.m"; sourceTree = "<group>"; };
+		932C863106D81D46002BBD97 /* GradientTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientTableView.h; sourceTree = "<group>"; };
+		932C863206D81D46002BBD97 /* GradientTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientTableView.m; sourceTree = "<group>"; };
+		932DE22507DEEB2B00B055F3 /* SDCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCTableView.h; sourceTree = "<group>"; };
+		932DE22607DEEB2B00B055F3 /* SDCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCTableView.m; sourceTree = "<group>"; };
+		932F238D073CDF0F00345346 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		93316D3F0A4F09830084B979 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93316D400A4F09830084B979 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		933170BA0A55A5A60084B979 /* CURLHandle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CURLHandle.framework; sourceTree = "<group>"; };
+		9331716F0A55B3C80084B979 /* Podcasts.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Podcasts.tiff; sourceTree = "<group>"; };
+		933171CD0A55B5A10084B979 /* Videos.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Videos.tiff; sourceTree = "<group>"; };
+		9331763E0A59D5680084B979 /* PlaylistTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistTypes.h; sourceTree = "<group>"; };
+		9335C3770BBF92A2007B5AAF /* RBSplitView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RBSplitView.framework; sourceTree = "<group>"; };
+		93379AFF0A30058A00B1FC14 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		9338528C0797515D00C27B0D /* ThemedTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ThemedTextCell.h; sourceTree = "<group>"; };
+		9338528D0797515D00C27B0D /* ThemedTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ThemedTextCell.m; sourceTree = "<group>"; };
+		93389A440B45FD1300C02845 /* iRooster Snooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRooster Snooze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93389A460B45FD1300C02845 /* iRooster Snooze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iRooster Snooze-Info.plist"; sourceTree = "<group>"; };
+		93389C780B460D5C00C02845 /* NSBundle+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Extras.h"; sourceTree = "<group>"; };
+		93389C790B460D5C00C02845 /* NSBundle+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Extras.m"; sourceTree = "<group>"; };
+		93389CF40B460F3D00C02845 /* NSAppleScript+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleScript+Extras.h"; sourceTree = "<group>"; };
+		93389CF50B460F3D00C02845 /* NSAppleScript+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAppleScript+Extras.m"; sourceTree = "<group>"; };
+		9338A2D10B48448800C02845 /* NSDictionary+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extras.h"; sourceTree = "<group>"; };
+		9338A2D20B48448800C02845 /* NSDictionary+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extras.m"; sourceTree = "<group>"; };
+		9338A45B0B4867BB00C02845 /* Snooze.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Snooze.nib; sourceTree = "<group>"; };
+		9338A4FA0B486BD400C02845 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		9338A4FB0B486BD400C02845 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		933A3B9504B107F200F174B6 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		933A3B9604B107F200F174B6 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		933A3B9704B107F200F174B6 /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		933A3B9804B107F200F174B6 /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+		933A3B9B04B107F200F174B6 /* AlarmManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AlarmManager.h; sourceTree = "<group>"; };
+		933A3B9C04B107F200F174B6 /* AlarmManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AlarmManager.m; sourceTree = "<group>"; };
+		933A3B9D04B107F200F174B6 /* AlarmPanelController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AlarmPanelController.h; sourceTree = "<group>"; };
+		933A3B9E04B107F200F174B6 /* AlarmPanelController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AlarmPanelController.m; sourceTree = "<group>"; };
+		933A3BA604B107F200F174B6 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		933A3BA704B107F200F174B6 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		933A3BB904B107F300F174B6 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		933A3BBA04B107F300F174B6 /* iTunes.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = iTunes.m; sourceTree = "<group>"; };
+		933A3C0004B1097B00F174B6 /* About.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = About.nib; sourceTree = "<group>"; };
+		933A3C0404B1097B00F174B6 /* DeleteAlarmPanel.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = DeleteAlarmPanel.nib; sourceTree = "<group>"; };
+		933A3C0604B1099A00F174B6 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		933A54F6090347F7001BF110 /* about.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = about.rtf; sourceTree = "<group>"; };
+		933A7A740548CB2300180972 /* Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Preferences.nib; sourceTree = "<group>"; };
+		933EBF5C0A1B194C005219E4 /* ILCrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILCrashReporter.framework; sourceTree = "<group>"; };
+		934061D60BB7002B0076CD0C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		9341F6DD0B0EB4E900951E71 /* WakeUpHelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WakeUpHelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		934663E90BADB63F0014E566 /* CTGradient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CTGradient.h; sourceTree = "<group>"; };
+		934663EA0BADB63F0014E566 /* CTGradient.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CTGradient.m; sourceTree = "<group>"; };
+		934663EB0BADB63F0014E566 /* StyledWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StyledWindow.h; sourceTree = "<group>"; };
+		934663EC0BADB63F0014E566 /* StyledWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StyledWindow.m; sourceTree = "<group>"; };
+		934668AF0BB509A50014E566 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		934CD8F908D3AD1A00FF3AC6 /* CFUtilities.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = CFUtilities.c; sourceTree = "<group>"; };
+		934CD8FA08D3AD1A00FF3AC6 /* CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFUtilities.h; sourceTree = "<group>"; };
+		934CD8FB08D3AD1A00FF3AC6 /* MoreSecurity.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MoreSecurity.c; sourceTree = "<group>"; };
+		934CD8FC08D3AD1A00FF3AC6 /* MoreSecurity.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MoreSecurity.h; sourceTree = "<group>"; };
+		934CD8FD08D3AD1A00FF3AC6 /* MoreSecurityTestCommon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MoreSecurityTestCommon.h; sourceTree = "<group>"; };
+		934CD8FE08D3AD1A00FF3AC6 /* MoreSecurityTestTool.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MoreSecurityTestTool.c; sourceTree = "<group>"; };
+		934CD8FF08D3AD1A00FF3AC6 /* MoreUNIX.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MoreUNIX.c; sourceTree = "<group>"; };
+		934CD90008D3AD1A00FF3AC6 /* MoreUNIX.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MoreUNIX.h; sourceTree = "<group>"; };
+		934CD90108D3AD1A00FF3AC6 /* PowerManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PowerManager.h; sourceTree = "<group>"; };
+		934CD90208D3AD1A00FF3AC6 /* PowerManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PowerManager.m; sourceTree = "<group>"; };
+		934CD90308D3AD1A00FF3AC6 /* SetupRoutines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SetupRoutines.h; sourceTree = "<group>"; };
+		934CDB4308D5665200FF3AC6 /* iTunesClockBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesClockBG.png; sourceTree = "<group>"; };
+		934DBBDA06CC9AA00007CBD1 /* Playlist.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Playlist.tiff; sourceTree = "<group>"; };
+		934DBBF306CC9BDC0007CBD1 /* Party Shuffle.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Party Shuffle.tiff"; sourceTree = "<group>"; };
+		934DBBF606CC9BEE0007CBD1 /* Library.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Library.tiff; sourceTree = "<group>"; };
+		934DBBF706CC9BEE0007CBD1 /* Purchased Music.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Purchased Music.tiff"; sourceTree = "<group>"; };
+		934DBBF806CC9BEE0007CBD1 /* Smart Playlist.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Smart Playlist.tiff"; sourceTree = "<group>"; };
+		934DBC3706CC9D340007CBD1 /* IRRandomPlaylist.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = IRRandomPlaylist.tiff; sourceTree = "<group>"; };
+		935A4E390CD50DDD00502B5B /* EWSLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWSLib.h; sourceTree = "<group>"; };
+		935A4E3B0CD50E1200502B5B /* validateLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validateLib.h; sourceTree = "<group>"; };
+		935A4E3F0CD50E4A00502B5B /* EWSMacCompress.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = EWSMacCompress.tar.gz; sourceTree = "<group>"; };
+		935A4E400CD50E4A00502B5B /* libEWS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEWS.a; sourceTree = "<group>"; };
+		935A4E410CD50E4A00502B5B /* libValidateUniversal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libValidateUniversal.a; sourceTree = "<group>"; };
+		935A4E810CD5167E00502B5B /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		935A4E820CD5167E00502B5B /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		935A4E980CD516BB00502B5B /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		935A4E990CD516BB00502B5B /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		935C1D7605BA64D300F3A7BA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		935DCC7205E7141E00A18110 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPreferences.h; sourceTree = "<group>"; };
+		935DCC7305E7141E00A18110 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
+		93635A460AA8161100C770EE /* Library Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Library Large.tiff"; sourceTree = "<group>"; };
+		93635A470AA8161100C770EE /* Party Shuffle Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Party Shuffle Large.tiff"; sourceTree = "<group>"; };
+		93635A480AA8161100C770EE /* Playlist Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Playlist Large.tiff"; sourceTree = "<group>"; };
+		93635A490AA8161100C770EE /* Podcasts Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Podcasts Large.tiff"; sourceTree = "<group>"; };
+		93635A4A0AA8161100C770EE /* Purchased Music Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Purchased Music Large.tiff"; sourceTree = "<group>"; };
+		93635A4B0AA8161100C770EE /* Smart Playlist Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Smart Playlist Large.tiff"; sourceTree = "<group>"; };
+		93635A4C0AA8161100C770EE /* Videos Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Videos Large.tiff"; sourceTree = "<group>"; };
+		936378200755D314008F9F3E /* SongDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDatabase.h; sourceTree = "<group>"; };
+		936378210755D314008F9F3E /* SongDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDatabase.m; sourceTree = "<group>"; };
+		93678A2D0541F3E400CCE433 /* NSCalendarDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendarDate+Additions.h"; sourceTree = "<group>"; };
+		93678A2E0541F3E400CCE433 /* NSCalendarDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendarDate+Additions.m"; sourceTree = "<group>"; };
+		9368C84F04E9CBE100A915F2 /* ActivationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivationController.h; sourceTree = "<group>"; };
+		9368C85004E9CBE100A915F2 /* ActivationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivationController.m; sourceTree = "<group>"; };
+		9368C85404E9CC8800A915F2 /* Activation.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Activation.nib; sourceTree = "<group>"; };
+		9368D9A904F5E1AB00EB4315 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		9368DA2B0749E98C007F96BD /* FFWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFWD.png; sourceTree = "<group>"; };
+		9368DA360749EA5C007F96BD /* RWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWD.png; sourceTree = "<group>"; };
+		936D0B8B0AACF25F007ED514 /* AlarmStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AlarmStringHelper.h; sourceTree = "<group>"; };
+		936D0B8C0AACF25F007ED514 /* AlarmStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AlarmStringHelper.m; sourceTree = "<group>"; };
+		936DD8EB07B58CFD009CBE19 /* Minus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Minus.icns; sourceTree = "<group>"; };
+		936DD8EC07B58CFD009CBE19 /* Plus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Plus.icns; sourceTree = "<group>"; };
+		936DD93107B595E2009CBE19 /* NSWindow+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Extras.h"; sourceTree = "<group>"; };
+		938276890CCFFFB1009EB6CD /* Simple Clock.qtz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple Clock.qtz"; sourceTree = "<group>"; };
+		938276AD0CD0147B009EB6CD /* irooster.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = irooster.icns; sourceTree = "<group>"; };
+		9382771E0CD01E30009EB6CD /* EWSMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EWSMac.framework; sourceTree = "<group>"; };
+		9385659707BE77AD00F39880 /* GeneralPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GeneralPreferences.tiff; sourceTree = "<group>"; };
+		938565A307BE78A900F39880 /* iTunes.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iTunes.icns; sourceTree = "<group>"; };
+		938565AD07BE793F00F39880 /* WebServices.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = WebServices.tiff; sourceTree = "<group>"; };
+		938D4C570774E2330051EC3F /* ChimpTunesAsk.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ChimpTunesAsk.nib; sourceTree = "<group>"; };
+		938D4C970774F2610051EC3F /* ChimpTunesAsk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChimpTunesAsk.h; sourceTree = "<group>"; };
+		938D4C980774F2610051EC3F /* ChimpTunesAsk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimpTunesAsk.m; sourceTree = "<group>"; };
+		9393A8AC06C9C54E00F87625 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		9393A8AD06C9C54E00F87625 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		9393DCDA0A4E2B3B0097F331 /* DaysToRepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysToRepeat.h; sourceTree = "<group>"; };
+		9393DCDB0A4E2B3B0097F331 /* DaysToRepeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysToRepeat.m; sourceTree = "<group>"; };
+		939BAAA904C9071A00691E9C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		939BAAAA04C9071A00691E9C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		939E6A64094818FA00CC8C91 /* OAAquaButton.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OAAquaButton.h; sourceTree = "<group>"; };
+		939E6A65094818FA00CC8C91 /* OAAquaButton.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OAAquaButton.m; sourceTree = "<group>"; };
+		93A20C9B0ADA1FEB00B47A5A /* TV Shows Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "TV Shows Large.tiff"; sourceTree = "<group>"; };
+		93A20C9C0ADA1FEB00B47A5A /* TV Shows.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "TV Shows.tiff"; sourceTree = "<group>"; };
+		93A20D3F0ADA280A00B47A5A /* Movies Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Movies Large.tiff"; sourceTree = "<group>"; };
+		93A20D400ADA280A00B47A5A /* Movies.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Movies.tiff; sourceTree = "<group>"; };
+		93A20D6D0ADA29FD00B47A5A /* Audiobooks Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Audiobooks Large.tiff"; sourceTree = "<group>"; };
+		93A20D6E0ADA29FD00B47A5A /* Audiobooks.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Audiobooks.tiff; sourceTree = "<group>"; };
+		93A20D7A0ADA2B0D00B47A5A /* Music Large.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Music Large.tiff"; sourceTree = "<group>"; };
+		93A20D7B0ADA2B0D00B47A5A /* Music.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Music.tiff; sourceTree = "<group>"; };
+		93A27C7D051FCC8A00A80176 /* iTunesLibraryReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iTunesLibraryReader.h; sourceTree = "<group>"; };
+		93A27C7E051FCC8A00A80176 /* iTunesLibraryReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = iTunesLibraryReader.m; sourceTree = "<group>"; };
+		93A8F2820790D046000E6176 /* AlarmEditor.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = AlarmEditor.nib; sourceTree = "<group>"; };
+		93A8F28A0790D136000E6176 /* AlarmEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmEditor.h; sourceTree = "<group>"; };
+		93A8F28B0790D136000E6176 /* AlarmEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmEditor.m; sourceTree = "<group>"; };
+		93A9AAE605BE554C00D60BDC /* SnoozeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnoozeWindow.h; sourceTree = "<group>"; };
+		93A9AAE705BE554C00D60BDC /* SnoozeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnoozeWindow.m; sourceTree = "<group>"; };
+		93B18D7506E8FC48007E02C0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		93BA4B3104D34EB800FE1BEE /* KeyDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyDownTextField.h; sourceTree = "<group>"; };
+		93BA4B3204D34EB800FE1BEE /* KeyDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyDownTextField.m; sourceTree = "<group>"; };
+		93C764D706D333E900992656 /* SnoozeController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SnoozeController.h; sourceTree = "<group>"; };
+		93C764D806D333E900992656 /* SnoozeController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SnoozeController.m; sourceTree = "<group>"; };
+		93C96D9905D89ECA00A9BA4E /* eSellerateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eSellerateController.h; sourceTree = "<group>"; };
+		93C96D9A05D89ECA00A9BA4E /* eSellerateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eSellerateController.m; sourceTree = "<group>"; };
+		93CBA3C30520F37400A80176 /* PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsController.h; sourceTree = "<group>"; };
+		93CBA3C40520F37400A80176 /* PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsController.m; sourceTree = "<group>"; };
+		93D45A030697A3C500EAEEE3 /* FlatKeyDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FlatKeyDownTextField.h; sourceTree = "<group>"; };
+		93D45A040697A3C500EAEEE3 /* FlatKeyDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FlatKeyDownTextField.m; sourceTree = "<group>"; };
+		93E5D8B90AB5EE2E0033B6AA /* AudioManagerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManagerTest.h; sourceTree = "<group>"; };
+		93E5D8BA0AB5EE2E0033B6AA /* AudioManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManagerTest.m; sourceTree = "<group>"; };
+		93E5D9390AB5F60B0033B6AA /* AlarmManagerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmManagerTest.h; sourceTree = "<group>"; };
+		93E5D93A0AB5F60B0033B6AA /* AlarmManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmManagerTest.m; sourceTree = "<group>"; };
+		93E92E6B06C5985E009EB2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E92E6C06C5985E009EB2FC /* iRooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EC486507BC864D003DBEB6 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/iRoosterStrings.strings; sourceTree = "<group>"; };
+		93F0B7EF0AA1232900AE5582 /* AlarmTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmTest.h; sourceTree = "<group>"; };
+		93F0B7F00AA1232900AE5582 /* AlarmTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmTest.m; sourceTree = "<group>"; };
+		93F0B8610AA1265A00AE5582 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SenTestingKit.framework; sourceTree = "<group>"; };
+		93F0B8BA0AA1292000AE5582 /* DaysToRepeatTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysToRepeatTest.h; sourceTree = "<group>"; };
+		93F0B8BB0AA1292000AE5582 /* DaysToRepeatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysToRepeatTest.m; sourceTree = "<group>"; };
+		93F0C1130AA4ADF800AE5582 /* iTunesMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesMock.m; sourceTree = "<group>"; };
+		93F0C184076B120D00974B33 /* Lullabye.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Lullabye.nib; sourceTree = "<group>"; };
+		93F0C186076B126F00974B33 /* LullabyeController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LullabyeController.h; sourceTree = "<group>"; };
+		93F0C187076B126F00974B33 /* LullabyeController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LullabyeController.m; sourceTree = "<group>"; };
+		93F66D6E04D0D59100FEE561 /* QuitAlert.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = QuitAlert.nib; sourceTree = "<group>"; };
+		93F66D7004D0D6D600FEE561 /* QuitAlertController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QuitAlertController.h; sourceTree = "<group>"; };
+		93F66D7104D0D6D600FEE561 /* QuitAlertController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QuitAlertController.m; sourceTree = "<group>"; };
+		93F8D49A06E66C5B00958CDA /* SDCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCButton.h; sourceTree = "<group>"; };
+		93F8D49B06E66C5B00958CDA /* SDCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCButton.m; sourceTree = "<group>"; };
+		93FC60A306C8B80E00109FB8 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		93FC60A406C8B80E00109FB8 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93316D3C0A4F09830084B979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F0B8620AA1265A00AE5582 /* SenTestingKit.framework in Frameworks */,
+				93E5D9150AB5F5870033B6AA /* CoreAudio.framework in Frameworks */,
+				93E5D9530AB5F6DE0033B6AA /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93389A420B45FD1300C02845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93389A870B45FF2100C02845 /* CURLHandle.framework in Frameworks */,
+				93389C420B460C3B00C02845 /* Carbon.framework in Frameworks */,
+				93389CAE0B460E4100C02845 /* CoreAudio.framework in Frameworks */,
+				9338A4240B48652F00C02845 /* Cocoa.framework in Frameworks */,
+				9338A5420B486E0F00C02845 /* IOKit.framework in Frameworks */,
+				934668B00BB509A50014E566 /* Quartz.framework in Frameworks */,
+				934061D70BB7002B0076CD0C /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9341F6DB0B0EB4E900951E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341F8760B0EB52400951E71 /* IOKit.framework in Frameworks */,
+				9341F8770B0EB52400951E71 /* CoreFoundation.framework in Frameworks */,
+				9341F8780B0EB52400951E71 /* Security.framework in Frameworks */,
+				9341F8790B0EB52400951E71 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E92E6106C5985E009EB2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E92E6206C5985E009EB2FC /* Cocoa.framework in Frameworks */,
+				93E92E6506C5985E009EB2FC /* Carbon.framework in Frameworks */,
+				93E92E6606C5985E009EB2FC /* CoreFoundation.framework in Frameworks */,
+				93E92E6906C5985E009EB2FC /* Security.framework in Frameworks */,
+				93E92E6A06C5985E009EB2FC /* ApplicationServices.framework in Frameworks */,
+				93B18D7606E8FC48007E02C0 /* CoreAudio.framework in Frameworks */,
+				932F238E073CDF0F00345346 /* IOKit.framework in Frameworks */,
+				933EBF5D0A1B194C005219E4 /* ILCrashReporter.framework in Frameworks */,
+				93379B000A30058A00B1FC14 /* Sparkle.framework in Frameworks */,
+				93009C5A0B92C92F00E11FAD /* CURLHandle.framework in Frameworks */,
+				934668B10BB509A50014E566 /* Quartz.framework in Frameworks */,
+				934061D80BB7002B0076CD0C /* QTKit.framework in Frameworks */,
+				9335C3780BBF92A2007B5AAF /* RBSplitView.framework in Frameworks */,
+				935A4E430CD50E4A00502B5B /* libEWS.a in Frameworks */,
+				935A4E440CD50E4A00502B5B /* libValidateUniversal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				933A3B9704B107F200F174B6 /* Alarm.h */,
+				933A3B9804B107F200F174B6 /* Alarm.m */,
+				933A3B9B04B107F200F174B6 /* AlarmManager.h */,
+				933A3B9C04B107F200F174B6 /* AlarmManager.m */,
+				9393DCDA0A4E2B3B0097F331 /* DaysToRepeat.h */,
+				9393DCDB0A4E2B3B0097F331 /* DaysToRepeat.m */,
+			);
+			name = Alarms;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9382771E0CD01E30009EB6CD /* EWSMac.framework */,
+				9335C3770BBF92A2007B5AAF /* RBSplitView.framework */,
+				934061D60BB7002B0076CD0C /* QTKit.framework */,
+				934668AF0BB509A50014E566 /* Quartz.framework */,
+				93F0B8610AA1265A00AE5582 /* SenTestingKit.framework */,
+				933170BA0A55A5A60084B979 /* CURLHandle.framework */,
+				93379AFF0A30058A00B1FC14 /* Sparkle.framework */,
+				933EBF5C0A1B194C005219E4 /* ILCrashReporter.framework */,
+				932F238D073CDF0F00345346 /* IOKit.framework */,
+				93B18D7506E8FC48007E02C0 /* CoreAudio.framework */,
+				935C1D7605BA64D300F3A7BA /* ApplicationServices.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				939BAAA904C9071A00691E9C /* Carbon.framework */,
+				939BAAAA04C9071A00691E9C /* CoreFoundation.framework */,
+				9368D9A904F5E1AB00EB4315 /* Security.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E92E6C06C5985E009EB2FC /* iRooster.app */,
+				93316D3F0A4F09830084B979 /* Test.octest */,
+				9341F6DD0B0EB4E900951E71 /* WakeUpHelperTool */,
+				93389A440B45FD1300C02845 /* iRooster Snooze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iRooster */ = {
+			isa = PBXGroup;
+			children = (
+				93E53A710BBF4E2000CCBF50 /* QC Animations */,
+				93C97B110A1C1B1700002A3E /* Unit Tests */,
+				934CD8F408D3ACC600FF3AC6 /* Wake Up Helper Tool */,
+				930E3C170778287E002C2AD7 /* Alert Panels */,
+				933A3BFC04B1085700F174B6 /* About */,
+				080E96DDFE201D6D7F000001 /* Alarms */,
+				930FC716077810820026F2C0 /* Alarm Editor */,
+				930FC71B077811AB0026F2C0 /* Audio System */,
+				930FC717077810AF0026F2C0 /* Core Functionality */,
+				930FC6E107780FFE0026F2C0 /* Lullaby */,
+				930FC71A077811680026F2C0 /* iTunes Object Model */,
+				930FC719077811170026F2C0 /* Preferences */,
+				930FC718077810D40026F2C0 /* Registration */,
+				930FC715077810640026F2C0 /* Snooze */,
+				933A3BF904B107FB00F174B6 /* Controls */,
+				9318EE6705043D8F00D2F7B5 /* Categories */,
+				29B97317FDCFA39411CA2CEA /* Plists and Misc Resources */,
+				933A3BFD04B1087600F174B6 /* Images and Icons */,
+				29B97315FDCFA39411CA2CEA /* Cocoa Runtime */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				93316D400A4F09830084B979 /* Test-Info.plist */,
+				93389A460B45FD1300C02845 /* iRooster Snooze-Info.plist */,
+			);
+			name = iRooster;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Cocoa Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iRooster_Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Cocoa Runtime";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Plists and Misc Resources */ = {
+			isa = PBXGroup;
+			children = (
+				939D2E880A2014FD004B8991 /* iRoosterStrings.strings */,
+				93E92E6B06C5985E009EB2FC /* Info.plist */,
+				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = "Plists and Misc Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9300A8380B9CCE1A00E11FAD /* NSControl */ = {
+			isa = PBXGroup;
+			children = (
+				9300A83E0B9CCE4700E11FAD /* CSDatePicker.h */,
+				9300A83F0B9CCE4700E11FAD /* CSDatePicker.m */,
+			);
+			name = NSControl;
+			sourceTree = "<group>";
+		};
+		930E3C170778287E002C2AD7 /* Alert Panels */ = {
+			isa = PBXGroup;
+			children = (
+				933A3B9D04B107F200F174B6 /* AlarmPanelController.h */,
+				933A3B9E04B107F200F174B6 /* AlarmPanelController.m */,
+				93F66D7004D0D6D600FEE561 /* QuitAlertController.h */,
+				93F66D7104D0D6D600FEE561 /* QuitAlertController.m */,
+				933A3C0404B1097B00F174B6 /* DeleteAlarmPanel.nib */,
+				93F66D6E04D0D59100FEE561 /* QuitAlert.nib */,
+			);
+			name = "Alert Panels";
+			sourceTree = "<group>";
+		};
+		930FC6E107780FFE0026F2C0 /* Lullaby */ = {
+			isa = PBXGroup;
+			children = (
+				93F0C186076B126F00974B33 /* LullabyeController.h */,
+				93F0C187076B126F00974B33 /* LullabyeController.m */,
+				93F0C184076B120D00974B33 /* Lullabye.nib */,
+			);
+			name = Lullaby;
+			sourceTree = "<group>";
+		};
+		930FC715077810640026F2C0 /* Snooze */ = {
+			isa = PBXGroup;
+			children = (
+				9338A4F90B486BB900C02845 /* Remote */,
+				939E564907604B02009F7268 /* Chimp Tunes */,
+				93C764D706D333E900992656 /* SnoozeController.h */,
+				93C764D806D333E900992656 /* SnoozeController.m */,
+				9338A45B0B4867BB00C02845 /* Snooze.nib */,
+			);
+			name = Snooze;
+			sourceTree = "<group>";
+		};
+		930FC716077810820026F2C0 /* Alarm Editor */ = {
+			isa = PBXGroup;
+			children = (
+				93A8F2820790D046000E6176 /* AlarmEditor.nib */,
+				93A8F28A0790D136000E6176 /* AlarmEditor.h */,
+				93A8F28B0790D136000E6176 /* AlarmEditor.m */,
+			);
+			name = "Alarm Editor";
+			sourceTree = "<group>";
+		};
+		930FC717077810AF0026F2C0 /* Core Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				936D0B8B0AACF25F007ED514 /* AlarmStringHelper.h */,
+				936D0B8C0AACF25F007ED514 /* AlarmStringHelper.m */,
+				933A3BA604B107F200F174B6 /* Controller.h */,
+				933A3BA704B107F200F174B6 /* Controller.m */,
+				933A3C0604B1099A00F174B6 /* MainMenu.nib */,
+			);
+			name = "Core Functionality";
+			sourceTree = "<group>";
+		};
+		930FC718077810D40026F2C0 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				935A4E3F0CD50E4A00502B5B /* EWSMacCompress.tar.gz */,
+				935A4E400CD50E4A00502B5B /* libEWS.a */,
+				935A4E410CD50E4A00502B5B /* libValidateUniversal.a */,
+				93C96D9905D89ECA00A9BA4E /* eSellerateController.h */,
+				93C96D9A05D89ECA00A9BA4E /* eSellerateController.m */,
+				9368C85404E9CC8800A915F2 /* Activation.nib */,
+				9368C84F04E9CBE100A915F2 /* ActivationController.h */,
+				9368C85004E9CBE100A915F2 /* ActivationController.m */,
+				935A4E390CD50DDD00502B5B /* EWSLib.h */,
+				935A4E3B0CD50E1200502B5B /* validateLib.h */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		930FC719077811170026F2C0 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				930F023007B885AB0055E0CE /* OTPreferenceWindowManager.h */,
+				930F023107B885AB0055E0CE /* OTPreferenceWindowManager.m */,
+				935DCC7205E7141E00A18110 /* AppPreferences.h */,
+				935DCC7305E7141E00A18110 /* AppPreferences.m */,
+				93CBA3C30520F37400A80176 /* PrefsController.h */,
+				93CBA3C40520F37400A80176 /* PrefsController.m */,
+				933A7A740548CB2300180972 /* Preferences.nib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		930FC71A077811680026F2C0 /* iTunes Object Model */ = {
+			isa = PBXGroup;
+			children = (
+				933A3BB904B107F300F174B6 /* iTunes.h */,
+				933A3BBA04B107F300F174B6 /* iTunes.m */,
+				93A27C7D051FCC8A00A80176 /* iTunesLibraryReader.h */,
+				93A27C7E051FCC8A00A80176 /* iTunesLibraryReader.m */,
+				9331763E0A59D5680084B979 /* PlaylistTypes.h */,
+			);
+			name = "iTunes Object Model";
+			sourceTree = "<group>";
+		};
+		930FC71B077811AB0026F2C0 /* Audio System */ = {
+			isa = PBXGroup;
+			children = (
+				93FC60A306C8B80E00109FB8 /* AudioManager.h */,
+				93FC60A406C8B80E00109FB8 /* AudioManager.m */,
+			);
+			name = "Audio System";
+			sourceTree = "<group>";
+		};
+		9318EE6705043D8F00D2F7B5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				936DD93107B595E2009CBE19 /* NSWindow+Extras.h */,
+				9393A8AC06C9C54E00F87625 /* NSString+Additions.h */,
+				9393A8AD06C9C54E00F87625 /* NSString+Additions.m */,
+				93678A2D0541F3E400CCE433 /* NSCalendarDate+Additions.h */,
+				93678A2E0541F3E400CCE433 /* NSCalendarDate+Additions.m */,
+				9320A11C068F62FA005C50D9 /* NSDate+Extras.h */,
+				9320A11D068F62FA005C50D9 /* NSDate+Extras.m */,
+				93389C780B460D5C00C02845 /* NSBundle+Extras.h */,
+				93389C790B460D5C00C02845 /* NSBundle+Extras.m */,
+				93389CF40B460F3D00C02845 /* NSAppleScript+Extras.h */,
+				93389CF50B460F3D00C02845 /* NSAppleScript+Extras.m */,
+				9338A2D10B48448800C02845 /* NSDictionary+Extras.h */,
+				9338A2D20B48448800C02845 /* NSDictionary+Extras.m */,
+				930659FF0BA47D66003E1835 /* NSWorkspace+Extras.h */,
+				93065A000BA47D66003E1835 /* NSWorkspace+Extras.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		932B9C6C06EC543E002F01EE /* NSButton */ = {
+			isa = PBXGroup;
+			children = (
+				93F8D49A06E66C5B00958CDA /* SDCButton.h */,
+				93F8D49B06E66C5B00958CDA /* SDCButton.m */,
+			);
+			name = NSButton;
+			sourceTree = "<group>";
+		};
+		932B9C6E06EC5459002F01EE /* NSCell */ = {
+			isa = PBXGroup;
+			children = (
+				9338528C0797515D00C27B0D /* ThemedTextCell.h */,
+				9338528D0797515D00C27B0D /* ThemedTextCell.m */,
+			);
+			name = NSCell;
+			sourceTree = "<group>";
+		};
+		932B9C6F06EC5468002F01EE /* NSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				932DE22507DEEB2B00B055F3 /* SDCTableView.h */,
+				932DE22607DEEB2B00B055F3 /* SDCTableView.m */,
+				93209FA7068EB01B005C50D9 /* KeyControlTableView.h */,
+				93209FA8068EB01B005C50D9 /* KeyControlTableView.m */,
+				932C863106D81D46002BBD97 /* GradientTableView.h */,
+				932C863206D81D46002BBD97 /* GradientTableView.m */,
+			);
+			name = NSTableView;
+			sourceTree = "<group>";
+		};
+		932B9C9706EC54C1002F01EE /* NSTextField */ = {
+			isa = PBXGroup;
+			children = (
+				93D45A030697A3C500EAEEE3 /* FlatKeyDownTextField.h */,
+				93D45A040697A3C500EAEEE3 /* FlatKeyDownTextField.m */,
+				93BA4B3104D34EB800FE1BEE /* KeyDownTextField.h */,
+				93BA4B3204D34EB800FE1BEE /* KeyDownTextField.m */,
+			);
+			name = NSTextField;
+			sourceTree = "<group>";
+		};
+		932B9C9806EC54E6002F01EE /* NSWindow */ = {
+			isa = PBXGroup;
+			children = (
+				934663E90BADB63F0014E566 /* CTGradient.h */,
+				934663EA0BADB63F0014E566 /* CTGradient.m */,
+				934663EB0BADB63F0014E566 /* StyledWindow.h */,
+				934663EC0BADB63F0014E566 /* StyledWindow.m */,
+				930E3CB907783254002C2AD7 /* SDCPanel.h */,
+				930E3CBA07783254002C2AD7 /* SDCPanel.m */,
+				93A9AAE605BE554C00D60BDC /* SnoozeWindow.h */,
+				93A9AAE705BE554C00D60BDC /* SnoozeWindow.m */,
+			);
+			name = NSWindow;
+			sourceTree = "<group>";
+		};
+		9338A4F90B486BB900C02845 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				935A4E980CD516BB00502B5B /* RemoteControl.h */,
+				935A4E990CD516BB00502B5B /* RemoteControl.m */,
+				935A4E810CD5167E00502B5B /* HIDRemoteControlDevice.h */,
+				935A4E820CD5167E00502B5B /* HIDRemoteControlDevice.m */,
+				9338A4FA0B486BD400C02845 /* AppleRemote.h */,
+				9338A4FB0B486BD400C02845 /* AppleRemote.m */,
+			);
+			name = Remote;
+			sourceTree = "<group>";
+		};
+		933A3BF904B107FB00F174B6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9300A8380B9CCE1A00E11FAD /* NSControl */,
+				939E6A61094818C500CC8C91 /* Omni AppKit Controls */,
+				932B9C6C06EC543E002F01EE /* NSButton */,
+				932B9C6E06EC5459002F01EE /* NSCell */,
+				932B9C6F06EC5468002F01EE /* NSTableView */,
+				932B9C9706EC54C1002F01EE /* NSTextField */,
+				932B9C9806EC54E6002F01EE /* NSWindow */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		933A3BFC04B1085700F174B6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				933A54F6090347F7001BF110 /* about.rtf */,
+				933A3B9504B107F200F174B6 /* AboutController.h */,
+				933A3B9604B107F200F174B6 /* AboutController.m */,
+				933A3C0004B1097B00F174B6 /* About.nib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		933A3BFD04B1087600F174B6 /* Images and Icons */ = {
+			isa = PBXGroup;
+			children = (
+				938276AD0CD0147B009EB6CD /* irooster.icns */,
+				93A20D6D0ADA29FD00B47A5A /* Audiobooks Large.tiff */,
+				93A20D6E0ADA29FD00B47A5A /* Audiobooks.tiff */,
+				931785850AF7CAED0054E090 /* BlueClockBG.png */,
+				934CDB4308D5665200FF3AC6 /* iTunesClockBG.png */,
+				9385659407BE779F00F39880 /* Prefs */,
+				936DD8EB07B58CFD009CBE19 /* Minus.icns */,
+				936DD8EC07B58CFD009CBE19 /* Plus.icns */,
+				9368DA360749EA5C007F96BD /* RWD.png */,
+				9368DA2B0749E98C007F96BD /* FFWD.png */,
+				934DBBD706CC9A870007CBD1 /* Playlist Images */,
+			);
+			name = "Images and Icons";
+			sourceTree = "<group>";
+		};
+		934CD8F408D3ACC600FF3AC6 /* Wake Up Helper Tool */ = {
+			isa = PBXGroup;
+			children = (
+				934CD8F908D3AD1A00FF3AC6 /* CFUtilities.c */,
+				934CD8FA08D3AD1A00FF3AC6 /* CFUtilities.h */,
+				934CD8FB08D3AD1A00FF3AC6 /* MoreSecurity.c */,
+				934CD8FC08D3AD1A00FF3AC6 /* MoreSecurity.h */,
+				934CD8FD08D3AD1A00FF3AC6 /* MoreSecurityTestCommon.h */,
+				934CD8FE08D3AD1A00FF3AC6 /* MoreSecurityTestTool.c */,
+				934CD8FF08D3AD1A00FF3AC6 /* MoreUNIX.c */,
+				934CD90008D3AD1A00FF3AC6 /* MoreUNIX.h */,
+				934CD90108D3AD1A00FF3AC6 /* PowerManager.h */,
+				934CD90208D3AD1A00FF3AC6 /* PowerManager.m */,
+				934CD90308D3AD1A00FF3AC6 /* SetupRoutines.h */,
+			);
+			name = "Wake Up Helper Tool";
+			sourceTree = "<group>";
+		};
+		934DBBD706CC9A870007CBD1 /* Playlist Images */ = {
+			isa = PBXGroup;
+			children = (
+				93A20D7A0ADA2B0D00B47A5A /* Music Large.tiff */,
+				93A20D7B0ADA2B0D00B47A5A /* Music.tiff */,
+				93A20D3F0ADA280A00B47A5A /* Movies Large.tiff */,
+				93A20D400ADA280A00B47A5A /* Movies.tiff */,
+				93A20C9B0ADA1FEB00B47A5A /* TV Shows Large.tiff */,
+				93A20C9C0ADA1FEB00B47A5A /* TV Shows.tiff */,
+				93635A460AA8161100C770EE /* Library Large.tiff */,
+				93635A470AA8161100C770EE /* Party Shuffle Large.tiff */,
+				93635A480AA8161100C770EE /* Playlist Large.tiff */,
+				93635A490AA8161100C770EE /* Podcasts Large.tiff */,
+				93635A4A0AA8161100C770EE /* Purchased Music Large.tiff */,
+				93635A4B0AA8161100C770EE /* Smart Playlist Large.tiff */,
+				93635A4C0AA8161100C770EE /* Videos Large.tiff */,
+				933171CD0A55B5A10084B979 /* Videos.tiff */,
+				9331716F0A55B3C80084B979 /* Podcasts.tiff */,
+				934DBC3706CC9D340007CBD1 /* IRRandomPlaylist.tiff */,
+				934DBBF606CC9BEE0007CBD1 /* Library.tiff */,
+				934DBBF706CC9BEE0007CBD1 /* Purchased Music.tiff */,
+				934DBBF806CC9BEE0007CBD1 /* Smart Playlist.tiff */,
+				934DBBF306CC9BDC0007CBD1 /* Party Shuffle.tiff */,
+				934DBBDA06CC9AA00007CBD1 /* Playlist.tiff */,
+			);
+			name = "Playlist Images";
+			sourceTree = "<group>";
+		};
+		9385659407BE779F00F39880 /* Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				930298C90B54A834005508EB /* display.tiff */,
+				938565AD07BE793F00F39880 /* WebServices.tiff */,
+				938565A307BE78A900F39880 /* iTunes.icns */,
+				9385659707BE77AD00F39880 /* GeneralPreferences.tiff */,
+			);
+			name = Prefs;
+			sourceTree = "<group>";
+		};
+		939E564907604B02009F7268 /* Chimp Tunes */ = {
+			isa = PBXGroup;
+			children = (
+				936378200755D314008F9F3E /* SongDatabase.h */,
+				936378210755D314008F9F3E /* SongDatabase.m */,
+				938D4C570774E2330051EC3F /* ChimpTunesAsk.nib */,
+				938D4C970774F2610051EC3F /* ChimpTunesAsk.h */,
+				938D4C980774F2610051EC3F /* ChimpTunesAsk.m */,
+			);
+			name = "Chimp Tunes";
+			sourceTree = "<group>";
+		};
+		939E6A61094818C500CC8C91 /* Omni AppKit Controls */ = {
+			isa = PBXGroup;
+			children = (
+				939E6A64094818FA00CC8C91 /* OAAquaButton.h */,
+				939E6A65094818FA00CC8C91 /* OAAquaButton.m */,
+			);
+			name = "Omni AppKit Controls";
+			sourceTree = "<group>";
+		};
+		93C97B110A1C1B1700002A3E /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93F0C1120AA4ADDC00AE5582 /* Mock Objects */,
+				93F0B7EF0AA1232900AE5582 /* AlarmTest.h */,
+				93F0B7F00AA1232900AE5582 /* AlarmTest.m */,
+				93F0B8BA0AA1292000AE5582 /* DaysToRepeatTest.h */,
+				93F0B8BB0AA1292000AE5582 /* DaysToRepeatTest.m */,
+				93E5D8B90AB5EE2E0033B6AA /* AudioManagerTest.h */,
+				93E5D8BA0AB5EE2E0033B6AA /* AudioManagerTest.m */,
+				93E5D9390AB5F60B0033B6AA /* AlarmManagerTest.h */,
+				93E5D93A0AB5F60B0033B6AA /* AlarmManagerTest.m */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		93E53A710BBF4E2000CCBF50 /* QC Animations */ = {
+			isa = PBXGroup;
+			children = (
+				938276890CCFFFB1009EB6CD /* Simple Clock.qtz */,
+			);
+			name = "QC Animations";
+			sourceTree = "<group>";
+		};
+		93F0C1120AA4ADDC00AE5582 /* Mock Objects */ = {
+			isa = PBXGroup;
+			children = (
+				93F0C1130AA4ADF800AE5582 /* iTunesMock.m */,
+			);
+			name = "Mock Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9341F6DF0B0EB50300951E71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341F6E10B0EB50F00951E71 /* CFUtilities.h in Headers */,
+				9341F6E20B0EB50F00951E71 /* MoreSecurity.h in Headers */,
+				9341F6E30B0EB50F00951E71 /* MoreSecurityTestCommon.h in Headers */,
+				9341F6E40B0EB50F00951E71 /* MoreUNIX.h in Headers */,
+				9341F6E50B0EB50F00951E71 /* SetupRoutines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E92DEE06C5985E009EB2FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E92DEF06C5985E009EB2FC /* iRooster_Prefix.h in Headers */,
+				93E92DF006C5985E009EB2FC /* AboutController.h in Headers */,
+				93E92DF106C5985E009EB2FC /* Alarm.h in Headers */,
+				93E92DF306C5985E009EB2FC /* AlarmManager.h in Headers */,
+				93E92DF406C5985E009EB2FC /* AlarmPanelController.h in Headers */,
+				93E92DF806C5985E009EB2FC /* Controller.h in Headers */,
+				93E92DF906C5985E009EB2FC /* iTunes.h in Headers */,
+				93E92DFF06C5985E009EB2FC /* QuitAlertController.h in Headers */,
+				93E92E0006C5985E009EB2FC /* KeyDownTextField.h in Headers */,
+				93E92E0106C5985E009EB2FC /* ActivationController.h in Headers */,
+				93E92E0406C5985E009EB2FC /* iTunesLibraryReader.h in Headers */,
+				93E92E0506C5985E009EB2FC /* PrefsController.h in Headers */,
+				93E92E0606C5985E009EB2FC /* NSCalendarDate+Additions.h in Headers */,
+				93E92E0B06C5985E009EB2FC /* eSellerateController.h in Headers */,
+				93E92E0D06C5985E009EB2FC /* AppPreferences.h in Headers */,
+				93E92E1106C5985E009EB2FC /* KeyControlTableView.h in Headers */,
+				93E92E1206C5985E009EB2FC /* NSDate+Extras.h in Headers */,
+				93E92E1306C5985E009EB2FC /* FlatKeyDownTextField.h in Headers */,
+				93FC60A506C8B80E00109FB8 /* AudioManager.h in Headers */,
+				9393A8AE06C9C54E00F87625 /* NSString+Additions.h in Headers */,
+				932C863506D81D46002BBD97 /* GradientTableView.h in Headers */,
+				93F8D49C06E66C5B00958CDA /* SDCButton.h in Headers */,
+				93F0C188076B126F00974B33 /* LullabyeController.h in Headers */,
+				930E3CBB07783254002C2AD7 /* SDCPanel.h in Headers */,
+				93A8F28C0790D136000E6176 /* AlarmEditor.h in Headers */,
+				9338528E0797515D00C27B0D /* ThemedTextCell.h in Headers */,
+				936DD93307B595E2009CBE19 /* NSWindow+Extras.h in Headers */,
+				930F023207B885AB0055E0CE /* OTPreferenceWindowManager.h in Headers */,
+				932DE22707DEEB2B00B055F3 /* SDCTableView.h in Headers */,
+				9393DCDC0A4E2B3B0097F331 /* DaysToRepeat.h in Headers */,
+				9331763F0A59D5680084B979 /* PlaylistTypes.h in Headers */,
+				936D0B8D0AACF25F007ED514 /* AlarmStringHelper.h in Headers */,
+				93389C7C0B460D5C00C02845 /* NSBundle+Extras.h in Headers */,
+				93389CF60B460F3D00C02845 /* NSAppleScript+Extras.h in Headers */,
+				9338A2D30B48448800C02845 /* NSDictionary+Extras.h in Headers */,
+				9300A8480B9CCE9100E11FAD /* CSDatePicker.h in Headers */,
+				93065A020BA47D67003E1835 /* NSWorkspace+Extras.h in Headers */,
+				934663ED0BADB63F0014E566 /* CTGradient.h in Headers */,
+				934663EF0BADB63F0014E566 /* StyledWindow.h in Headers */,
+				935A4E3A0CD50DDD00502B5B /* EWSLib.h in Headers */,
+				935A4E3C0CD50E1200502B5B /* validateLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93316D3E0A4F09830084B979 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93316D410A4F09840084B979 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				93316D3A0A4F09830084B979 /* Resources */,
+				93316D3B0A4F09830084B979 /* Sources */,
+				93316D3C0A4F09830084B979 /* Frameworks */,
+				93316D3D0A4F09830084B979 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 93316D3F0A4F09830084B979 /* Test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		93389A430B45FD1300C02845 /* iRooster Snooze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93389A470B45FD1A00C02845 /* Build configuration list for PBXNativeTarget "iRooster Snooze" */;
+			buildPhases = (
+				93389A400B45FD1300C02845 /* Resources */,
+				93389A410B45FD1300C02845 /* Sources */,
+				93389A420B45FD1300C02845 /* Frameworks */,
+				93389AA60B45FF8A00C02845 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRooster Snooze";
+			productName = "iRooster Snooze";
+			productReference = 93389A440B45FD1300C02845 /* iRooster Snooze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9341F6DC0B0EB4E900951E71 /* WakeUpHelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9341F8850B0EB53800951E71 /* Build configuration list for PBXNativeTarget "WakeUpHelperTool" */;
+			buildPhases = (
+				9341F6DF0B0EB50300951E71 /* Headers */,
+				9341F6DA0B0EB4E900951E71 /* Sources */,
+				9341F6DB0B0EB4E900951E71 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeUpHelperTool;
+			productName = WUTest;
+			productReference = 9341F6DD0B0EB4E900951E71 /* WakeUpHelperTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		93E92DED06C5985E009EB2FC /* iRooster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938790E408A67BC200A21C16 /* Build configuration list for PBXNativeTarget "iRooster" */;
+			buildPhases = (
+				93E92DEE06C5985E009EB2FC /* Headers */,
+				93E92E1506C5985E009EB2FC /* Resources */,
+				93E92E3E06C5985E009EB2FC /* Sources */,
+				93E92E6106C5985E009EB2FC /* Frameworks */,
+				932F2472073DB53000345346 /* Copy Frameworks */,
+				9341F8A40B0EBAD900951E71 /* Copy WakeUpHelperTool */,
+				93389A4E0B45FD7F00C02845 /* Copy iRooster Snooze */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93389A530B45FDA900C02845 /* PBXTargetDependency */,
+				9341F88B0B0EB7E100951E71 /* PBXTargetDependency */,
+			);
+			name = iRooster;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iRooster;
+			productReference = 93E92E6C06C5985E009EB2FC /* iRooster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 938790EC08A67BC200A21C16 /* Build configuration list for PBXProject "iRooster" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iRooster */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E92DED06C5985E009EB2FC /* iRooster */,
+				93316D3E0A4F09830084B979 /* Test */,
+				9341F6DC0B0EB4E900951E71 /* WakeUpHelperTool */,
+				93389A430B45FD1300C02845 /* iRooster Snooze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93316D3A0A4F09830084B979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93389A400B45FD1300C02845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93389A720B45FEA800C02845 /* iRooster Snooze-Info.plist in Resources */,
+				9338A3D00B48628C00C02845 /* Minus.icns in Resources */,
+				9338A3D40B48629000C02845 /* Plus.icns in Resources */,
+				9338A3D70B48629400C02845 /* FFWD.png in Resources */,
+				9338A3DA0B48629700C02845 /* RWD.png in Resources */,
+				9338A4510B48663A00C02845 /* BlueClockBG.png in Resources */,
+				9338A4550B48663E00C02845 /* iTunesClockBG.png in Resources */,
+				9338A45C0B4867BB00C02845 /* Snooze.nib in Resources */,
+				9382768B0CCFFFB1009EB6CD /* Simple Clock.qtz in Resources */,
+				938276AF0CD0147B009EB6CD /* irooster.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E92E1506C5985E009EB2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935A4E420CD50E4A00502B5B /* EWSMacCompress.tar.gz in Resources */,
+				930A7542090C658400E230E1 /* InfoPlist.strings in Resources */,
+				930A7537090C654700E230E1 /* MainMenu.nib in Resources */,
+				930A7535090C653600E230E1 /* About.nib in Resources */,
+				930A752F090C652300E230E1 /* DeleteAlarmPanel.nib in Resources */,
+				930A7532090C652900E230E1 /* QuitAlert.nib in Resources */,
+				930A753B090C655F00E230E1 /* Activation.nib in Resources */,
+				930A753A090C655900E230E1 /* Preferences.nib in Resources */,
+				934DBBDB06CC9AA00007CBD1 /* Playlist.tiff in Resources */,
+				934DBBF906CC9BEE0007CBD1 /* Library.tiff in Resources */,
+				934DBBFA06CC9BEE0007CBD1 /* Purchased Music.tiff in Resources */,
+				934DBBFB06CC9BEE0007CBD1 /* Smart Playlist.tiff in Resources */,
+				934DBC3806CC9D340007CBD1 /* IRRandomPlaylist.tiff in Resources */,
+				93793DEA06CE992D003F867E /* Party Shuffle.tiff in Resources */,
+				930A7539090C655300E230E1 /* Lullabye.nib in Resources */,
+				930A7536090C653D00E230E1 /* AlarmEditor.nib in Resources */,
+				939D2E890A2014FD004B8991 /* iRoosterStrings.strings in Resources */,
+				9385659807BE77AD00F39880 /* GeneralPreferences.tiff in Resources */,
+				938565A407BE78A900F39880 /* iTunes.icns in Resources */,
+				938565AE07BE793F00F39880 /* WebServices.tiff in Resources */,
+				934CDB4408D5665200FF3AC6 /* iTunesClockBG.png in Resources */,
+				933A54F7090347F7001BF110 /* about.rtf in Resources */,
+				9331710F0A55A7920084B979 /* ChimpTunesAsk.nib in Resources */,
+				933171700A55B3C80084B979 /* Podcasts.tiff in Resources */,
+				933171CE0A55B5A10084B979 /* Videos.tiff in Resources */,
+				93635A4D0AA8161100C770EE /* Library Large.tiff in Resources */,
+				93635A4E0AA8161100C770EE /* Party Shuffle Large.tiff in Resources */,
+				93635A4F0AA8161100C770EE /* Playlist Large.tiff in Resources */,
+				93635A500AA8161100C770EE /* Podcasts Large.tiff in Resources */,
+				93635A510AA8161100C770EE /* Purchased Music Large.tiff in Resources */,
+				93635A520AA8161100C770EE /* Smart Playlist Large.tiff in Resources */,
+				93635A530AA8161100C770EE /* Videos Large.tiff in Resources */,
+				93A20C9D0ADA1FEB00B47A5A /* TV Shows Large.tiff in Resources */,
+				93A20C9E0ADA1FEB00B47A5A /* TV Shows.tiff in Resources */,
+				93A20D410ADA280A00B47A5A /* Movies Large.tiff in Resources */,
+				93A20D420ADA280A00B47A5A /* Movies.tiff in Resources */,
+				93A20D6F0ADA29FD00B47A5A /* Audiobooks Large.tiff in Resources */,
+				93A20D700ADA29FD00B47A5A /* Audiobooks.tiff in Resources */,
+				93A20D7C0ADA2B0D00B47A5A /* Music Large.tiff in Resources */,
+				93A20D7D0ADA2B0D00B47A5A /* Music.tiff in Resources */,
+				931785860AF7CAED0054E090 /* BlueClockBG.png in Resources */,
+				93389A780B45FED300C02845 /* iRooster Snooze.app in Resources */,
+				930298CA0B54A834005508EB /* display.tiff in Resources */,
+				9382768A0CCFFFB1009EB6CD /* Simple Clock.qtz in Resources */,
+				938276AE0CD0147B009EB6CD /* irooster.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93316D3D0A4F09830084B979 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93316D3B0A4F09830084B979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F0B7F10AA1232900AE5582 /* AlarmTest.m in Sources */,
+				93F0B7F40AA1236D00AE5582 /* Alarm.m in Sources */,
+				93F0B86D0AA1268D00AE5582 /* DaysToRepeat.m in Sources */,
+				93F0B8BC0AA1292000AE5582 /* DaysToRepeatTest.m in Sources */,
+				93F0C0DD0AA4AC3100AE5582 /* NSCalendarDate+Additions.m in Sources */,
+				93F0C1140AA4ADF800AE5582 /* iTunesMock.m in Sources */,
+				93E5D8BB0AB5EE2E0033B6AA /* AudioManagerTest.m in Sources */,
+				93E5D9140AB5F5760033B6AA /* AudioManager.m in Sources */,
+				93E5D93B0AB5F60B0033B6AA /* AlarmManagerTest.m in Sources */,
+				930660F60BAD2D58003E1835 /* NSString+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93389A410B45FD1300C02845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93389A740B45FEBD00C02845 /* SnoozeWindow.m in Sources */,
+				93389A750B45FEBF00C02845 /* SnoozeController.m in Sources */,
+				93389A7C0B45FEF600C02845 /* main.m in Sources */,
+				93389AB20B45FFF900C02845 /* SongDatabase.m in Sources */,
+				93389B940B46098E00C02845 /* AudioManager.m in Sources */,
+				93389C2B0B460BBB00C02845 /* iTunes.m in Sources */,
+				93389C7B0B460D5C00C02845 /* NSBundle+Extras.m in Sources */,
+				93389CF90B460F3D00C02845 /* NSAppleScript+Extras.m in Sources */,
+				9338A2D60B48448800C02845 /* NSDictionary+Extras.m in Sources */,
+				9338A33C0B484D0B00C02845 /* AppPreferences.m in Sources */,
+				9338A41C0B4864E900C02845 /* OAAquaButton.m in Sources */,
+				9338A4A80B4869D500C02845 /* NSString+Additions.m in Sources */,
+				9338A4FD0B486BD500C02845 /* AppleRemote.m in Sources */,
+				9338A58B0B48789600C02845 /* NSDate+Extras.m in Sources */,
+				93065A050BA47D67003E1835 /* NSWorkspace+Extras.m in Sources */,
+				93E539DB0BBF2D3E00CCBF50 /* iTunesLibraryReader.m in Sources */,
+				935A4E850CD5168D00502B5B /* HIDRemoteControlDevice.m in Sources */,
+				935A4E9A0CD516BB00502B5B /* RemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9341F6DA0B0EB4E900951E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9341F6E60B0EB51800951E71 /* CFUtilities.c in Sources */,
+				9341F6E70B0EB51800951E71 /* MoreSecurity.c in Sources */,
+				9341F6E80B0EB51800951E71 /* MoreSecurityTestTool.c in Sources */,
+				9341F6E90B0EB51800951E71 /* MoreUNIX.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E92E3E06C5985E009EB2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E92E3F06C5985E009EB2FC /* main.m in Sources */,
+				93E92E4106C5985E009EB2FC /* Alarm.m in Sources */,
+				93E92E4306C5985E009EB2FC /* AlarmManager.m in Sources */,
+				93E92E4406C5985E009EB2FC /* AlarmPanelController.m in Sources */,
+				93148FB7074AE48100B9CC26 /* Controller.m in Sources */,
+				93E92E4906C5985E009EB2FC /* iTunes.m in Sources */,
+				93E92E4D06C5985E009EB2FC /* QuitAlertController.m in Sources */,
+				93E92E4E06C5985E009EB2FC /* KeyDownTextField.m in Sources */,
+				93E92E4F06C5985E009EB2FC /* ActivationController.m in Sources */,
+				93E92E5106C5985E009EB2FC /* iTunesLibraryReader.m in Sources */,
+				93E92E5206C5985E009EB2FC /* PrefsController.m in Sources */,
+				93E92E5306C5985E009EB2FC /* NSCalendarDate+Additions.m in Sources */,
+				93E92E5706C5985E009EB2FC /* eSellerateController.m in Sources */,
+				93E92E5906C5985E009EB2FC /* AppPreferences.m in Sources */,
+				93E92E5D06C5985E009EB2FC /* KeyControlTableView.m in Sources */,
+				93E92E5E06C5985E009EB2FC /* NSDate+Extras.m in Sources */,
+				93E92E5F06C5985E009EB2FC /* FlatKeyDownTextField.m in Sources */,
+				93FC60A606C8B80E00109FB8 /* AudioManager.m in Sources */,
+				9393A8AF06C9C54E00F87625 /* NSString+Additions.m in Sources */,
+				932C863606D81D46002BBD97 /* GradientTableView.m in Sources */,
+				93F8D49D06E66C5B00958CDA /* SDCButton.m in Sources */,
+				93F0C189076B126F00974B33 /* LullabyeController.m in Sources */,
+				930E3CBC07783254002C2AD7 /* SDCPanel.m in Sources */,
+				93A8F28D0790D136000E6176 /* AlarmEditor.m in Sources */,
+				9338528F0797515D00C27B0D /* ThemedTextCell.m in Sources */,
+				930F023307B885AB0055E0CE /* OTPreferenceWindowManager.m in Sources */,
+				932DE22807DEEB2B00B055F3 /* SDCTableView.m in Sources */,
+				934CD91F08D3ADCA00FF3AC6 /* AboutController.m in Sources */,
+				934CD92208D3ADD600FF3AC6 /* CFUtilities.c in Sources */,
+				934CD92B08D3AE4400FF3AC6 /* MoreSecurity.c in Sources */,
+				934CD92C08D3AE5700FF3AC6 /* MoreUNIX.c in Sources */,
+				934CD93008D3AE6100FF3AC6 /* PowerManager.m in Sources */,
+				9393DCDD0A4E2B3B0097F331 /* DaysToRepeat.m in Sources */,
+				9331710E0A55A7910084B979 /* ChimpTunesAsk.m in Sources */,
+				936D0B8E0AACF25F007ED514 /* AlarmStringHelper.m in Sources */,
+				93389C7D0B460D5C00C02845 /* NSBundle+Extras.m in Sources */,
+				93389CF70B460F3D00C02845 /* NSAppleScript+Extras.m in Sources */,
+				9338A2D40B48448800C02845 /* NSDictionary+Extras.m in Sources */,
+				9300A8490B9CCE9200E11FAD /* CSDatePicker.m in Sources */,
+				93065A030BA47D67003E1835 /* NSWorkspace+Extras.m in Sources */,
+				934663EE0BADB63F0014E566 /* CTGradient.m in Sources */,
+				934663F00BADB63F0014E566 /* StyledWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93389A530B45FDA900C02845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93389A430B45FD1300C02845 /* iRooster Snooze */;
+			targetProxy = 93389A520B45FDA900C02845 /* PBXContainerItemProxy */;
+		};
+		9341F88B0B0EB7E100951E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9341F6DC0B0EB4E900951E71 /* WakeUpHelperTool */;
+			targetProxy = 9341F88A0B0EB7E100951E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		939D2E880A2014FD004B8991 /* iRoosterStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93EC486507BC864D003DBEB6 /* English */,
+			);
+			name = iRoosterStrings.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93066BAB0AA9333900A0B196 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRooster_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildiRooster=1\"";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iRooster;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Coverage;
+		};
+		93066BAC0AA9333900A0B196 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Coverage;
+		};
+		93066BAD0AA9333900A0B196 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lgcov";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Coverage;
+		};
+		93316D420A4F09840084B979 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		93316D430A4F09840084B979 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		93316D440A4F09840084B979 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		93389A480B45FD1A00C02845 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildSatelliteApp=1\"";
+				INFOPLIST_FILE = "iRooster Snooze-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "iRooster Snooze";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		93389A490B45FD1A00C02845 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildSatelliteApp=1\"";
+				INFOPLIST_FILE = "iRooster Snooze-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "iRooster Snooze";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Coverage;
+		};
+		93389A4A0B45FD1A00C02845 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildSatelliteApp=1\"";
+				INFOPLIST_FILE = "iRooster Snooze-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "iRooster Snooze";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		93389A4B0B45FD1A00C02845 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildSatelliteApp=1\"";
+				INFOPLIST_FILE = "iRooster Snooze-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "iRooster Snooze";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		9341F8860B0EB53800951E71 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WakeUpHelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		9341F8870B0EB53800951E71 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WakeUpHelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Coverage;
+		};
+		9341F8880B0EB53800951E71 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WakeUpHelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		9341F8890B0EB53800951E71 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WakeUpHelperTool;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		938790E508A67BC200A21C16 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRooster_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildiRooster=1\"";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iRooster;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		938790E608A67BC200A21C16 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRooster_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildiRooster=1\"";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iRooster;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		938790E708A67BC200A21C16 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRooster_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"BuildiRooster=1\"";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					/Users/aaron/iRooster,
+					"$(SRCROOT)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iRooster;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		938790ED08A67BC200A21C16 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_STYLE = debugging;
+			};
+			name = Development;
+		};
+		938790EE08A67BC200A21C16 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_STYLE = debugging;
+			};
+			name = Deployment;
+		};
+		938790EF08A67BC200A21C16 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_FAST_OBJC_DISPATCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93316D410A4F09840084B979 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93316D420A4F09840084B979 /* Development */,
+				93066BAC0AA9333900A0B196 /* Coverage */,
+				93316D430A4F09840084B979 /* Deployment */,
+				93316D440A4F09840084B979 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		93389A470B45FD1A00C02845 /* Build configuration list for PBXNativeTarget "iRooster Snooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93389A480B45FD1A00C02845 /* Development */,
+				93389A490B45FD1A00C02845 /* Coverage */,
+				93389A4A0B45FD1A00C02845 /* Deployment */,
+				93389A4B0B45FD1A00C02845 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9341F8850B0EB53800951E71 /* Build configuration list for PBXNativeTarget "WakeUpHelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9341F8860B0EB53800951E71 /* Development */,
+				9341F8870B0EB53800951E71 /* Coverage */,
+				9341F8880B0EB53800951E71 /* Deployment */,
+				9341F8890B0EB53800951E71 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		938790E408A67BC200A21C16 /* Build configuration list for PBXNativeTarget "iRooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938790E508A67BC200A21C16 /* Development */,
+				93066BAB0AA9333900A0B196 /* Coverage */,
+				938790E608A67BC200A21C16 /* Deployment */,
+				938790E708A67BC200A21C16 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		938790EC08A67BC200A21C16 /* Build configuration list for PBXProject "iRooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938790ED08A67BC200A21C16 /* Development */,
+				93066BAD0AA9333900A0B196 /* Coverage */,
+				938790EE08A67BC200A21C16 /* Deployment */,
+				938790EF08A67BC200A21C16 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

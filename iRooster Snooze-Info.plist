@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>irooster</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>iRooster</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>RSTR</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>iRooster Snooze</string>
+	<key>CFBundleIconFile</key>
+	<string>irooster</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ChimpSoftware.iRoosterSnooze</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>iRooster 2.5</string>
+	<key>CFBundleSignature</key>
+	<string>RSTR</string>
+	<key>CFBundleVersion</key>
+	<string>2.5</string>
+	<key>NSMainNibFile</key>
+	<string>Snooze</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
