@@ -5,3 +5,5 @@ iRooster turns your Mac into a $2,000 alarm clock. This was the first piece of s
 <img src="irooster.png" alt="icon">
 
 Enjoy spelunking through the source for this, written in Objective-C, targeting PowerPC(!)-based Macs.
+
+<img src="screenshot.jpeg" alt="screenshot">
